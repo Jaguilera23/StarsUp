@@ -12,7 +12,7 @@
 <body>
     <!--nuevo header usando bootstrap-->
     <header> 
-        <div class="container-fluid mt-3 mb-5 ">
+        <div class="container mt-3 mb-5 ">
             <nav class="navbar  navbar-expand-md">
                 <div class="container-fluid me-2 ms-2">
                     <a href="../index.html" class="navbar-brand">
@@ -59,16 +59,16 @@
     </header> 
         <!--nuevo header usando bootstrap fin-->
 
-    <div class="container mb-5">
+    <div class="container container-h1">
         <div class="row">
             <div class="col">
                 <h1 class="display-2">Compra y vende más de 350 criptomonedas </h1>
             </div>
         </div>
     </div>
-    <div class="container mb-5">
+    <div class="container ">
         <div class="row  d-flex justify-content-around">
-            <div class="col-md-3">
+            <div class="col-md-3 mb-4">
                 <img src="./assets/logos/avatar-coin.svg" alt="avatarcoin"  class="img-fluid">
             </div>
             <div class="col-md-8">
@@ -80,273 +80,338 @@
         </div>
     </div>
     <main>
-        <!--tablas indicadoras de volumen-->
-        <section class="volume-section">
-            <div class="trading-volume">
-                <h2>12.84%</h2>
-                <p>Total Trading Volume</p>
-                <img class="volume-img" src="assets/img/profit1.svg" alt="imageProfit">
-            </div>
-            <div class="table-volume">
-                <table class="currency-table">
-                    <thead class="thead">~
-                        <tr>
-                            <th>Currency</th>
-                            <th>Price</th>
-                            <th>24 Change</th>
-                            <th>Market Cap</th>
-                            <th>Graphic</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="padding-text-table"><img class="img-coin" src="./assets/logos/ethereum.svg" alt="Ethereum">Ethereum/ETHUSD</td>
-                            <td>$ 161.39</td>
-                            <td class="percentage-profit">+70.13%</td>
-                            <td>14.731B</td>
-                            <td><img src="./assets/img/profit2.svg" alt=""></td>
-                        </tr>
-                        <tr>
-                            <td class="padding-text-table"><img class="img-coin" src="./assets/logos/bitcoin.svg" alt="bitcoin">Bitcoin/USD</td>
-                            <td>$ 159,31</td>
-                            <td class="percentage-loss">-43.19%</td>
-                            <td>132.435B</td>
-                            <td><img src="./assets/img/loss1.svg" alt=""></td>
-                        </tr>
-                        <tr>
-                            <td class="padding-text-table"><img class="img-coin" src="./assets/logos/luna.svg" alt="luna">LUNA/LUNAUSD</td>
-                            <td>$ 155.73</td>
-                            <td class="percentage-profit">+32.13%</td>
-                            <td>90.287B</td>
-                            <td><img src="./assets/img/profit3.svg" alt=""></td>
-                        </tr>
-                        <tr>
-                            <td class="padding-text-table"><img class="img-coin" src="./assets/logos/tether.svg" alt="tether">Tether/USDT</td>
-                            <td>$ 151.13</td>
-                            <td class="percentage-profit">+23.98%</td>
-                            <td>124.124B</td>
-                            <td><img src="./assets/img/profit4.svg" alt=""></td>
-                        </tr>
-                        <tr>
-                            <td class="padding-text-table"><img class="img-coin" src="./assets/logos/binance.svg" alt="binance">Binance Coin/BNBUSD</td>
-                            <td>$ 151.01</td>
-                            <td class="percentage-loss">-12.12%</td>
-                            <td>101.872B</td>
-                            <td><img src="./assets/img/loss2.svg" alt=""></td>
-                        </tr>
-                        <tr>
-                            <td class="padding-text-table"><img class="img-coin" src="./assets/logos/usdc.svg" alt="usdcoin">USD coin/ USDCUSD</td>
-                            <td>$ 149.89</td>
-                            <td class="percentage-loss">-4.98%</td>
-                            <td>198.113B</td>
-                            <td><img src="./assets/img/loss3.svg" alt=""></td>
-                        </tr>
-                    </tbody>    
-                </table>
-            </div>    
-        </section>      
-        <!--tarjetas-->
-        <section class="section-cards">
-            <div class="subtitle">
-                <h2>Comunnity crypto trending</h2>
-                <div class="subtitle-p-flex">
-                    <p>More than one world  crypto comunnity they choose a big market as their future market</p>
-                    <span> <a href="#"> View all -> </a></span>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="cards-row-1">
-                <div class="card">
-                    <div class="card-div1">
-                        <img src="./assets/logos/bitcoin.svg" alt="bitcoin" class="logo-card">
-                        <div class="p-cards">
-                            <p class="p-coin">Bitcoin</p>
-                            <p class="info-card">today up to   <span>+5.34%</span></p>
+        <!--Card Volume Bootstrap-->
+        <section class="container  container-table">
+            <div class="row">
+                <div class="container col-3  ms-3 card">
+                    <div class="container">
+                        <div class="row card-body">
+                            <h2 class="card-title mt-4 mb-2 display-3 col-12 text-md-start">12.84%</h2>
+                            <p class="card-text ms-3 col text-md-start ">Total Trading Volume</p>
                         </div>
-                        <img src="./assets/img/profit1.svg" alt="" class="img-card">
-                    </div class="card-div2">
-                    <hr>
-                    <div>
-                        <table class="card-table">
-                            <thead>
-                                <tr>
-                                    <th>Sumary</th>
-                                    <th>Sell</th>
-                                    <th>Neutral</th>
-                                    <th>Buy</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="card-color-sell">Strong Sell</td>
-                                    <td>15</td>
-                                    <td>9</td>
-                                    <td class="card-color-buy">2</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div >
-                </div>  
-                <div class="card">
-                    <div class="card-div1">
-                        <img src="./assets/logos/dogecoin .svg" alt="dogecoin" class="logo-card">
-                        <div class="p-cards">
-                            <p class="p-coin">Dodgecoin</p>
-                            <p class="info-card">today up to   <span>+5.34%</span></p>
-                        </div>
-                        <img src="./assets/img/profit1.svg" alt="" class="img-card">
-                    </div class="card-div2">
-                    <hr>
-                    <div>
-                        <table class="card-table">
-                            <thead>
-                                <tr>
-                                    <th>Sumary</th>
-                                    <th>Sell</th>
-                                    <th>Neutral</th>
-                                    <th>Buy</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="card-color-sell">Strong Sell</td>
-                                    <td>15</td>
-                                    <td>9</td>
-                                    <td class="card-color-buy">2</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div >
+                        <hr>
+                        <div class="row ">
+                            <div class=" col-md-2 col-2  ms-4">
+                                <img src="./assets/logos/bitcoin.svg" alt="bitcoin" class="img-coin">
+                            </div>
+                            <div class=" col-md-8 ">
+                                <p class="text-white ms-1">Bitcoin</p>
+                                <p class="info-card text-white ms-1">today up to <span>+5.34%</span></p>
+                            </div>
+                        </div>   
+                        <div class="row">
+                            <div class=" img-no-padding ">
+                                <img class="img-fluid img-card-volume" src="assets/img/profit1.svg" alt="imageProfit">
+                            </div>
+                        </div>            
+                    </div>    
                 </div>    
-                <div class="card">
-                    <div class="card-div1">
-                        <img src="./assets/logos/cardano.svg" alt="cardano" class="logo-card">
-                        <div class="p-cards">
-                            <p class="p-coin">Cardano</p>
-                            <p class="info-card">today up to   <span>+5.34%</span></p>
-                        </div>
-                        <img src="./assets/img/profit1.svg" alt="" class="img-card">
-                    </div class="card-div2">
-                    <hr>
-                    <div>
-                        <table class="card-table">
-                            <thead>
+        <!--Card Volume Bootstrap fin-->
+        <!--Currency Table Bootstrap-->
+                <div class="col-8  table-volume ">
+                        <table class="currency-table">
+                            <thead class="thead">
                                 <tr>
-                                    <th>Sumary</th>
-                                    <th>Sell</th>
-                                    <th>Neutral</th>
-                                    <th>Buy</th>
+                                    <th>Currency</th>
+                                    <th>Price</th>
+                                    <th>24 Change</th>
+                                    <th>Market Cap</th>
+                                    <th>Graphic</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="card-color-sell">Strong Sell</td>
-                                    <td>15</td>
-                                    <td>9</td>
-                                    <td class="card-color-buy">2</td>
+                                    <td class="padding-text-table"><img class="img-coin" src="./assets/logos/ethereum.svg" alt="Ethereum">Ethereum/ETHUSD</td>
+                                    <td>$ 161.39</td>
+                                    <td class="percentage-profit">+70.13%</td>
+                                    <td>14.731B</td>
+                                    <td><img src="./assets/img/profit2.svg" alt=""></td>
                                 </tr>
-                            </tbody>
+                                <tr>
+                                    <td class="padding-text-table"><img class="img-coin" src="./assets/logos/bitcoin.svg" alt="bitcoin">Bitcoin/USD</td>
+                                    <td>$ 159,31</td>
+                                    <td class="percentage-loss">-43.19%</td>
+                                    <td>132.435B</td>
+                                    <td><img src="./assets/img/loss1.svg" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="padding-text-table"><img class="img-coin" src="./assets/logos/luna.svg" alt="luna">LUNA/LUNAUSD</td>
+                                    <td>$ 155.73</td>
+                                    <td class="percentage-profit">+32.13%</td>
+                                    <td>90.287B</td>
+                                    <td><img src="./assets/img/profit3.svg" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="padding-text-table"><img class="img-coin" src="./assets/logos/tether.svg" alt="tether">Tether/USDT</td>
+                                    <td>$ 151.13</td>
+                                    <td class="percentage-profit">+23.98%</td>
+                                    <td>124.124B</td>
+                                    <td><img src="./assets/img/profit4.svg" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="padding-text-table"><img class="img-coin" src="./assets/logos/binance.svg" alt="binance">Binance Coin/BNBUSD</td>
+                                    <td>$ 151.01</td>
+                                    <td class="percentage-loss">-12.12%</td>
+                                    <td>101.872B</td>
+                                    <td><img src="./assets/img/loss2.svg" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td class="padding-text-table"><img class="img-coin" src="./assets/logos/usdc.svg" alt="usdcoin">USD coin/ USDCUSD</td>
+                                    <td>$ 149.89</td>
+                                    <td class="percentage-loss">-4.98%</td>
+                                    <td>198.113B</td>
+                                    <td><img src="./assets/img/loss3.svg" alt=""></td>
+                                </tr>
+                            </tbody>    
                         </table>
-                    </div >
+                </div>    
+            </div>
+        </section>      
+        <!--Currency Table Bootstrap-->
+        <section class="section-cards">
+            <div class="container mb-5">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-5">
+                        <h2 class="display-4 ">Crea tu cartera de criptomonedas</h2>
+                    </div>
+                    <div class="col-3">
+                        <p>More than one world crypto community they choose a big market as their future market</p>
+                        <span> <a href="#"> View all -> </a></span>
+                    </div>
                 </div>
+            </div>
+        <!--seccion de tarjetas bootstrap-->
+            <div class="container cards ">
+                <div class="row d-flex  align-items-center">
+                    <div class="col mb-4">
+                        <div class="container card d-flex align-items-center">
+                            <div class="row  card-body d-flex  justify-content-evenly align-items-end align-content-center">
+                                <div class="col-6 d-flex">
+                                    <img src="./assets/logos/bitcoin.svg" alt="bitcoin" class="img-coin">
+                                    <div class="card-text">
+                                        <p class="text-white coin">Bitcoin</p>
+                                        <p class="info-card text-white ms-1 ">today up to <span>+5.34%</span></p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <img src="./assets/img/profit1.svg" alt="" class="img-card img-fluid">
+                                </div>                               
+                            </div>
+                            <hr class="ms-3">
+                            <div>
+                                <table class="card-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Sumary</th>
+                                            <th>Sell</th>
+                                            <th>Neutral</th>
+                                            <th>Buy</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="card-color-sell">Strong Sell</td>
+                                            <td>15</td>
+                                            <td>9</td>
+                                            <td class="card-color-buy">2</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div >
+                        </div>  
+                    </div>
+                    <div class="col mb-4">
+                        <div class="container card d-flex align-items-center">
+                            <div class="row  card-body d-flex  justify-content-evenly align-items-end align-content-center">
+                                <div class="col-6 d-flex">
+                                    <img src="./assets/logos/dogecoin .svg" alt="bitcoin" class="img-coin">
+                                    <div class="card-text">
+                                        <p class="text-white coin">Dogecoin</p>
+                                        <p class="info-card text-white ms-1 ">today up to <span>+5.34%</span></p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <img src="./assets/img/loss-card.svg" alt="" class="img-card img-fluid">
+                                </div>                               
+                            </div>
+                            <hr class="ms-3">
+                            <div>
+                                <table class="card-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Sumary</th>
+                                            <th>Sell</th>
+                                            <th>Neutral</th>
+                                            <th>Buy</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="card-color-sell">Strong Sell</td>
+                                            <td>15</td>
+                                            <td>9</td>
+                                            <td class="card-color-buy">2</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div >
+                        </div>  
+                    </div>
+                    <div class="col mb-4">
+                        <div class="container card d-flex align-items-center">
+                            <div class="row  card-body d-flex  justify-content-evenly align-items-end align-content-center">
+                                <div class="col-6 d-flex">
+                                    <img src="./assets/logos/cardano.svg" alt="bitcoin" class="img-coin">
+                                    <div class="card-text">
+                                        <p class="text-white coin">Cardano</p>
+                                        <p class="info-card text-white ms-1 ">today up to <span>+5.34%</span></p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <img src="./assets/img/profit1.svg" alt="" class="img-card img-fluid">
+                                </div>                               
+                            </div>
+                            <hr class="ms-3">
+                            <div>
+                                <table class="card-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Sumary</th>
+                                            <th>Sell</th>
+                                            <th>Neutral</th>
+                                            <th>Buy</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="card-color-sell">Strong Sell</td>
+                                            <td>15</td>
+                                            <td>9</td>
+                                            <td class="card-color-buy">2</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div >
+                        </div>  
+                    </div>
+                    
                 </div>
-                <div class="cards-row-2">
-                <div class="card">
-                    <div class="card-div1">
-                        <img src="./assets/logos/polygon.svg" alt="polygon" class="logo-card">
-                        <div class="p-cards">
-                            <p class="p-coin">Polygon</p>
-                            <p class="info-card">today up to   <span>+5.34%</span></p>
-                        </div>
-                        <img src="./assets/img/profit1.svg" alt="" class="img-card">
-                    </div class="card-div2">
-                    <hr>
-                    <div>
-                        <table class="card-table">
-                            <thead>
-                                <tr>
-                                    <th>Sumary</th>
-                                    <th>Sell</th>
-                                    <th>Neutral</th>
-                                    <th>Buy</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="card-color-sell">Strong Sell</td>
-                                    <td>15</td>
-                                    <td>9</td>
-                                    <td class="card-color-buy">2</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div >
-                </div>
-                <div class="card">
-                    <div class="card-div1">
-                        <img src="./assets/logos/solana.svg" alt="Solana" class="logo-card">
-                        <div class="Solana">
-                            <p class="p-coin">Bitcoin</p>
-                            <p class="info-card">today up to   <span>+5.34%</span></p>
-                        </div>
-                        <img src="./assets/img/profit1.svg" alt="" class="img-card">
-                    </div class="card-div2">
-                    <hr>
-                    <div>
-                        <table class="card-table">
-                            <thead>
-                                <tr>
-                                    <th>Sumary</th>
-                                    <th>Sell</th>
-                                    <th>Neutral</th>
-                                    <th>Buy</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="card-color-sell">Strong Sell</td>
-                                    <td>15</td>
-                                    <td>9</td>
-                                    <td class="card-color-buy">2</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div >
-                </div>
-                <div class="card">
-                    <div class="card-div1">
-                        <img src="./assets/logos/tether.svg" alt="tether" class="logo-card">
-                        <div class="p-cards">
-                            <p class="p-coin">Tether</p>
-                            <p class="info-card">today up to   <span>+5.34%</span></p>
-                        </div>
-                        <img src="./assets/img/profit1.svg" alt="" class="img-card">
-                    </div class="card-div2">
-                    <hr>
-                    <div>
-                        <table class="card-table">
-                            <thead>
-                                <tr>
-                                    <th>Sumary</th>
-                                    <th>Sell</th>
-                                    <th>Neutral</th>
-                                    <th>Buy</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="card-color-sell">Strong Sell</td>
-                                    <td>15</td>
-                                    <td>9</td>
-                                    <td class="card-color-buy">2</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div >
-                </div>
+                <div class="row  ">    
+                    <div class="col mb-4">
+                        <div class="container card d-flex align-items-center">
+                            <div class="row  card-body d-flex  justify-content-evenly align-items-end align-content-center">
+                                <div class="col-6 d-flex">
+                                    <img src="./assets/logos/polygon.svg" alt="bitcoin" class="img-coin">
+                                    <div class="card-text">
+                                        <p class="text-white coin">Polygon</p>
+                                        <p class="info-card text-white ms-1 ">today up to <span>+5.34%</span></p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <img src="./assets/img/profit1.svg" alt="" class="img-card img-fluid">
+                                </div>                               
+                            </div>
+                            <hr class="ms-3">
+                            <div>
+                                <table class="card-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Sumary</th>
+                                            <th>Sell</th>
+                                            <th>Neutral</th>
+                                            <th>Buy</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="card-color-sell">Strong Sell</td>
+                                            <td>15</td>
+                                            <td>9</td>
+                                            <td class="card-color-buy">2</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div >
+                        </div>  
+                    </div>
+                    <div class="col mb-4">
+                        <div class="container card d-flex align-items-center">
+                            <div class="row  card-body d-flex  justify-content-evenly align-items-end align-content-center">
+                                <div class="col-6 d-flex">
+                                    <img src="./assets/logos/solana.svg" alt="bitcoin" class="img-coin">
+                                    <div class="card-text">
+                                        <p class="text-white coin">Solana</p>
+                                        <p class="info-card text-white ms-1 ">today up to <span>+5.34%</span></p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <img src="./assets/img/profit1.svg" alt="" class="img-card img-fluid">
+                                </div>                               
+                            </div>
+                            <hr class="ms-3">
+                            <div>
+                                <table class="card-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Sumary</th>
+                                            <th>Sell</th>
+                                            <th>Neutral</th>
+                                            <th>Buy</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="card-color-sell">Strong Sell</td>
+                                            <td>15</td>
+                                            <td>9</td>
+                                            <td class="card-color-buy">2</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div >
+                        </div>  
+                    </div>
+                    <div class="col mb-4">
+                        <div class="container card d-flex align-items-center">
+                            <div class="row  card-body d-flex  justify-content-evenly align-items-end align-content-center">
+                                <div class="col-6 d-flex">
+                                    <img src="./assets/logos/tether.svg" alt="bitcoin" class="img-coin">
+                                    <div class="card-text">
+                                        <p class="text-white coin">Tether</p>
+                                        <p class="info-card text-white ms-1 ">today up to <span>+5.34%</span></p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <img src="./assets/img/profit1.svg" alt="" class="img-card img-fluid">
+                                </div>                               
+                            </div>
+                            <hr class="ms-3">
+                            <div>
+                                <table class="card-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Sumary</th>
+                                            <th>Sell</th>
+                                            <th>Neutral</th>
+                                            <th>Buy</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="card-color-sell">Strong Sell</td>
+                                            <td>15</td>
+                                            <td>9</td>
+                                            <td class="card-color-buy">2</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div >
+                        </div>  
+                    </div>    
                 </div>
             </div>
         </section>
+        <!--seccion de tarjetas bootstrap fin-->
         <section>
             <div class="exchanges">
                 <h3>Trade across multipe exchanges using a single platform</h3>
