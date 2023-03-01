@@ -335,37 +335,22 @@ hr{width: 90%;
     width: 100%;   
 }
 
-.data-investors{display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: center;
-    text-align: center;
-    width: 100%;
-    margin-left: 6%;
-    text-align: center;
-}
 
-.data-investors-p1{width: 100%;
-    height: 5rem;
-    font-weight: 500;
+.data-investors-p1{font-weight: 500;
     font-size: 5rem;
     line-height: 100%;
     font-family: 'Clash Display Variable';
-    margin-bottom: 2%;
+    color: #ffffff;
 }
 
-.data-investors-p2{width: 100%;
+.data-investors-p2{
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 150%;
     color: #898989;
-    margin-bottom: 8rem;
-    text-align: center;
 }
 
-.coin-carrousel{
+.coin-carrousel{margin-top: 8rem;
     background: #3D3D3D;
 
 }
@@ -1049,7 +1034,7 @@ padding-left: 5rem;
 @media screen and (min-width:768px){.header-mobile{display: none;}
 }
 
-@media screen and (min-width: 576px) and (max-width:768px){.header-desktop{display: none;}
+@media screen and (min-width: 428px) and (max-width:768px){.header-desktop{display: none;}
 
 .header-mobile{display: flex;
     display: flex;
@@ -1061,7 +1046,16 @@ padding-left: 5rem;
     margin-top: 5%;
 }
 
+.mobile-no{display: none;
+;}
+
+
+.data-investors-p1{font-size: 4rem;
+}
+.data-investors-p2{margin-bottom: 15%;}
+
 .header-mobile img{width: 1.8rem;
+
 }
 
 
