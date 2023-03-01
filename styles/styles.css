@@ -1031,20 +1031,8 @@ padding-left: 5rem;
 
 /*media query*/
 
-@media screen and (min-width:768px){.header-mobile{display: none;}
-}
+@media screen and (min-width: 300px) and (max-width:768px){
 
-@media screen and (min-width: 428px) and (max-width:768px){.header-desktop{display: none;}
-
-.header-mobile{display: flex;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: baseline;
-	align-content: stretch;
-    margin-top: 5%;
-}
 
 .mobile-no{display: none;
 ;}
@@ -1054,46 +1042,16 @@ padding-left: 5rem;
 }
 .data-investors-p2{margin-bottom: 15%;}
 
-.header-mobile img{width: 1.8rem;
 
-}
+/*contact media query*/
 
+.contact-form-margin{margin-right: 15px;}
 
-/*contact form mediaquery*/
+/*home media query*/
 
-.contact-form{display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: flex-end;
-}
+.h1-home-mobile{margin-left: 10px;}
 
-.contact-text{width: 30rem;
-    margin-left: 18%;
-    margin-bottom: 4.43rem;
-}
-.contact-text h2{width: 10rem;
-    height: 10rem;
-    margin-bottom: 5.5rem;
-}
-
-.contact-text p{width: 27.56rem;
-    height: 8.4rem;
-    font-size: 1.125rem;
-}
-
-.contact-form-form{width:85%; 
-    margin-left: 8%;
-    display: flex;
-	flex-direction:row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
-}
-
-/*contact form media query end*/
+.wallet-mobile{margin-left: 10px;}
 
 
 
@@ -1162,5 +1120,13 @@ display: flex;
 /*product list media query end */
 
 
+
+
+/*table media query*/
+
+.padding-text-table span{display: none;}
+
+.table-volume{width:95%;
+margin-left:10px;}
+
 }
-    
