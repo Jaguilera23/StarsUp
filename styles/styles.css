@@ -9,19 +9,28 @@
 
 body, html {
     font-family: 'inter-regular', sans-serif;
-    max-height: 100vh;
+
     background:#010101;
-    max-width: 90vw;
+
     color:#ffffff;
     
     
 }
 
+.btn.border-orange{border:1px solid #FF6D03;
+    background: #010101;
+}
+
+.btn.border-orange:hover{
+    background-color: #FF6D03;
+}
 
 .btn:hover{border: 1px solid #FF6D03;}
 
 button, .btn{background:#FF6D03;
 color:#ffffff}
+
+
 
 /* home styles */
 
@@ -38,108 +47,29 @@ a:visited {
     text-decoration-color: currentColor;
 }
 
+.img-rrss{width:5rem}
 
-h1{font-family: 'Clash Display Variable';
-    font-style: normal;
+
+.display-2{font-family: 'Clash Display Variable';
     font-weight: 500;
-    font-size: 5rem;
-    line-height: 110%;
-    color: #ffffff;
-    margin-top: 10%;    
-}
-
-.intro{
-    padding-left: 6%;
-    padding-right: 6%;
-}
-
-.sub-header{margin-top: 5%;
-    margin-bottom: 10%;
-    margin-left: 6%;
-    margin-right: 0%;
-    width: 100%;
-}
-
-.sub-header p{font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    width: 40%;
-    height: 40%;
-    line-height: 150%;
+    margin-top: 10%;
 }
 
 
-.flexbox {display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: stretch;
-    width: 100%;
-}   
 
 
-.img-2x78{margin-right: 6%;
-}
 
-.flex2{display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: stretch;}
 
-.img-avatar{width: 12%;
-    margin-right: 2%;
-}
 
-.trading-volume h2 {margin-top: -3rem;
-    margin-left: 15%;
-    font-family: 'Clash Display Variable';
-    font-size: 2.3rem;
-    font-weight: 600;
-    z-index: 1;
-}
 
-    .trading-volume p {margin-top: 0.6rem;
-    margin-left: 15%;
-    z-index: 1;
-}
 
-.trading-volume{margin-left: 6%;
-    padding-top: 7.5%;
-    width: 26.2%;
-    background-color: #222222;
-    border-radius: 20px;
-    border: 1px solid #474747;
-    height: 24.5rem;
-}
 
-.volume-img{margin-top:3rem;
-    width: 100%;
-    height: 11.2rem;
-    z-index: 0;
-}
-
-.volume-section{display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: stretch;
-    margin-bottom: 15%;
-    width:90vw;
-    height:24.5rem
-}
-
-.table-volume{width:65%;
+.table-volume{
     background-color: #222222;
     border-radius: 1.25rem;
     border-collapse: collapse;
     border: 1px solid #474747;
-    padding-left: 2%;
-    height: 24.5rem;
-    
+
 }
 .currency-table{width:100%;
 margin-top:1rem}
@@ -168,7 +98,7 @@ th,td{
 
 
 
-.percentage-profit{color: #38F808;
+.percentage-profit{color: #14C67A;
 }
 
 .percentage-loss{color:#FF5454;
@@ -245,34 +175,23 @@ ul{list-style-type: none;}
     font-size: 1rem;
     line-height: 150%;
     color: #898989;
-    margin-left: 6%;
+
 }
 
-.section-cards{width: 90vw;
-    margin-left: 3%;
-    height:41rem;
-    margin-bottom: 15%;
-}
+.section-cards{margin-bottom: 15%;}
 
-.cards{width:100%;
-    margin-left:2%;
-    margin-bottom: 15%;
-    height: 30rem;
-}
 
-.card{padding: 0%;
-    width: 25.5rem;
-    height: 13rem;
+.card{
     background: #222222;
     border: 1px solid #474747;
     border-radius: 1rem;
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: space-evenly;
-	align-items: center;
-	align-content: center;
 }
+
+.container-table{margin-top: 10rem;
+  margin-bottom: 15rem;
+}
+
+.container-h1{margin-bottom: 10rem;}
 
 .card-div1{display: flex;
 	flex-direction: row;
@@ -284,12 +203,17 @@ ul{list-style-type: none;}
     padding-top: 5%;
 }
 
+.inverstor-margin-top{margin-top: 20%;}
 
-.logo-card{width:4rem;
+.img-coin{width:4rem;
     height: 2.8rem;
-    margin-right:5%;
-    margin-left: -5%;
+
 }
+
+.coin{font-weight: 500;
+    font-family:'clash Display Variable';
+    font-size: 18px;}
+
 
 .p-coin{font-weight: 500;
     font-size: 1.2rem;
@@ -299,14 +223,19 @@ ul{list-style-type: none;}
     color: #ffffff;
 }
 
-.info-card{width: 120%;
-    height: 1.8rem;
+
+.img-card{width: 12rem;
 }
 
-.img-card{width: 6rem;
-    height: 3rem;
-margin-left: 1.8rem;
+.card{padding: 0;}
+
+.img-card-volume{width: 100%;
 }
+
+.img-no-padding{padding: 0;}
+
+.card-title{font-family: 'Clash Display Variable';
+font-weight: 500;}
 
 hr{width: 90%;
     border: 1px solid #898989;
@@ -316,7 +245,7 @@ hr{width: 90%;
     margin-left: 5%;
 }
 
-.info-card span{color: #38F808;}
+.info-card span{color: #14C67A;}
 
 .card-table{width: 3rem;
     height: 3.8rem;
@@ -406,51 +335,29 @@ hr{width: 90%;
     width: 100%;   
 }
 
-.data-investors{display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: center;
-    text-align: center;
-    width: 100%;
-    margin-left: 6%;
-    text-align: center;
-}
 
-.data-investors-p1{width: 100%;
-    height: 5rem;
-    font-weight: 500;
+.data-investors-p1{font-weight: 500;
     font-size: 5rem;
     line-height: 100%;
     font-family: 'Clash Display Variable';
-    margin-bottom: 2%;
+    color: #ffffff;
 }
 
-.data-investors-p2{width: 100%;
+.data-investors-p2{
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 150%;
     color: #898989;
-    margin-bottom: 8rem;
-    text-align: center;
 }
 
-.coin-carrousel{
+.coin-carrousel{margin-top: 8rem;
     background: #3D3D3D;
-    width:111%;
+
 }
 .coin-carrousel img{width: 100%;
 }
 
-.new-account{display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: baseline;
-	align-content: flex;
-    width: 111%;
-    height: 16rem;
+.new-account{margin-bottom: 10%;
     background: #222222;
 }
 
@@ -459,16 +366,15 @@ hr{width: 90%;
     font-style: normal;
     font-weight: 500;
     font-size: 3rem;
-    line-height: 110%;
-    margin-top: 4rem;
-    margin-bottom: 0.8rem;
-    margin-left: 6%;
+
+
+
 }
 
-.new-account p{width: 100%;
+.new-account p{
     font-weight: 400;
     font-size: 1.2rem;
-    line-height: 150%;   
+
 }
 .new-account-p1{margin-left: 6%;}
 
@@ -1125,127 +1031,29 @@ padding-left: 5rem;
 
 /*media query*/
 
-@media screen and (min-width:768px){.header-mobile{display: none;}
+@media screen and (min-width: 300px) and (max-width:768px){
+
+
+.mobile-no{display: none;
+;}
+
+
+.data-investors-p1{font-size: 4rem;
 }
-
-@media screen and (min-width: 576px) and (max-width:768px){.header-desktop{display: none;}
-
-.header-mobile{display: flex;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: baseline;
-	align-content: stretch;
-    margin-top: 5%;
-}
-
-.header-mobile img{width: 1.8rem;
-}
+.data-investors-p2{margin-bottom: 15%;}
 
 
-/*contact form mediaquery*/
+/*contact media query*/
 
-.contact-form{display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: flex-end;
-}
+.contact-form-margin{margin-right: 15px;}
 
-.contact-text{width: 30rem;
-    margin-left: 18%;
-    margin-bottom: 4.43rem;
-}
-.contact-text h2{width: 10rem;
-    height: 10rem;
-    margin-bottom: 5.5rem;
-}
+/*home media query*/
 
-.contact-text p{width: 27.56rem;
-    height: 8.4rem;
-    font-size: 1.125rem;
-}
+.h1-home-mobile{margin-left: 10px;}
 
-.contact-form-form{width:85%; 
-    margin-left: 8%;
-    display: flex;
-	flex-direction:row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
-}
+.wallet-mobile{margin-left: 10px;}
 
-/*contact form media query end*/
 
-/*footer media query */
-
-.footer{display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: baseline;
-	align-content: center;
-    margin-top:20%;
-    margin-left: 10%;
-    margin-bottom: 15%;
-    width: 100%;
-}
-
-.footer-text{width: 85%;}
-
-.footer-text p{width:80%;
-    height: 126px;
-    font-weight: 300;
-    font-size: 1rem;
-    line-height: 131.02%;
-}
-
-.footer-text img{width: 35%;
-    height: 2.8rem;
-    margin-bottom: 2%;
-}
-
-.list-footer{display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: baseline;
-	align-content: space-evenly;
-    width:100%;
-    height:30rem ;
-    margin-top: 5%;
-}
-
-.download img{width: 6rem;}
-
-.li-light{font-weight: 100;
-    color: #898989;
-    padding-top: 0.6rem;
-}
-
-.list-footer ul{list-style-type: none;
-    width: 30%;
-    margin-right: 3%;
-}
-
-.head-list{font-weight: bold;
-}
-
-.watermark{text-align: center;
-    padding-bottom: 10%;
-    width: 100%;
-    height: 2rem;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 150%;
-    color: #898989;
-    margin-left: 6%;
-}
-
-/*footer media query end */
 
 /*product list media query */
 
@@ -1312,5 +1120,13 @@ display: flex;
 /*product list media query end */
 
 
+
+
+/*table media query*/
+
+.padding-text-table span{display: none;}
+
+.table-volume{width:95%;
+margin-left:10px;}
+
 }
-    
