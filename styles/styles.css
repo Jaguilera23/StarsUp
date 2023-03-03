@@ -688,59 +688,17 @@ br{margin-bottom: 2%;
 
 /* tutorial styles */
 
-.h2-tutorials{width:55rem;
-    height: 3.3rem;
+.h2-tutorials{
 font-size: 3rem;
 font-weight: 500;
 font-family: 'Clash Display Variable';
-line-height: 3.6rem;
-position: absolute;
-left: 5rem;
-top: 12.75rem;
-z-index: 1;
 }
 
-.grid-container-tutorial{display: grid;
-    width:90vw;
-    grid-template-columns: 24rem 24rem 24rem;
-    grid-template-rows: 13.3rem 15rem 5rem 13.3rem 15rem;
-    margin-top: 20%;
-    column-gap: 2rem;
-    margin-left: 5rem;
-    align-items: start;
-    z-index: 1;
-}
+.mb-tutorials{margin-bottom: 10%;}
+
+.mb-tutorials span{color: #FF6D03;}
 
 
-
-.video1{grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-
-.texto1{grid-column: 1 / 2;
-grid-row: 2 / 3;
-}
-
-.texto2{grid-column: 2 / 3;
-    grid-row: 2 / 3;
-}
-
-.texto3{grid-column: 3 / 4;
-    grid-row: 2 / 3;
-}
-
-.texto4{grid-column: 1 / 2;
-    grid-row: 5 / 6;
-}
-
-.texto5{grid-column: 2 / 3;
-    grid-row: 5 / 6;
-
-}
-
-.texto6{grid-column: 3 / 4;
-    grid-row: 5 / 6;
-}
 
 h5{font-size: 1rem;
 font-family: 'inter';
@@ -763,15 +721,13 @@ h6{font-family: 'Inter';
 
 
 
-p{font-family: 'Inter';
+.p-tutorial p{color: #898989;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
-    line-height: 1.rem;
     letter-spacing: 0.02rem;
-    color: #898989;
-    margin-bottom: 0.7rem;
-}
+    margin-bottom: 0.7rem;}
 
 .grid-container-tutorial span{width: 8rem;
     height: 1.1rem;  
@@ -1102,5 +1058,7 @@ height:25rem;
 
 .table-volume{width:95%;
 margin-left:10px;}
-
 }
+
+/*tutorials media query*/
+.h2-tutorials{font-size: 2.5rem;}
