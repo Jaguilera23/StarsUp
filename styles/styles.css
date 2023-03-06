@@ -795,17 +795,9 @@ border-radius: 0.8rem;
     margin-top: -5%;}
 
 .comment-form-tutorials{width: 100%;
-    height: 100%;
     margin-top: 5%;
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: flex-end;
-	align-content: stretch;
     border-radius: 21px;
     margin-bottom: 1.6rem;
-
 }
 
 .contact-mobile{display: none;}
@@ -841,26 +833,14 @@ border-radius: 0.8rem;
 }
 
 .grid-comment{display: grid;
-    grid-template-columns: 80vw 10vw;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    justify-items: center;
+    justify-items: end;
     align-items: center;}
 
-.post{width: 5rem;
-    height: 2rem;
-    color: #ffffff;
-    background-color: #FF6D03;
-    border-color:#FF6D03;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.3rem;
-    margin-bottom: 15%;
-    margin-top: 15%;
-    cursor: pointer;
-    transition: all ease-in-out 0.2s;
-    border-style: initial;
-    grid-column: 2/3;
+.post{grid-column: 2/3;
     grid-row: 1/2;
+    margin-right: 5% ;
 }
 
 
@@ -876,11 +856,9 @@ border-radius: 0.8rem;
 
 
 .table-comment{width: 90%;
-    height: 100%;
-margin-left: 5%;
-background-color: #222222;
-border-radius: 1.25rem;
-margin-top: 2rem;
+    background-color: #222222;
+    border-radius: 1.25rem;
+    margin-top: 2rem;
 }
 
 .border-bottom-comment{border-bottom:1px solid #010101;
@@ -985,9 +963,6 @@ display: flex;
 }
 
 
-
-
-
 /*product list media query end */
 
 .tarjeta-1{width: 20rem;
@@ -1022,21 +997,6 @@ margin-left:10px;}
 /*comment form tutorials media query */
 
 
-.comment-form-tutorials{
-    margin-top: 5%;
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: flex-end;
-	align-content: stretch;
-    border-radius: 21px;
-    margin-bottom: 1.6rem;
-
-}
-
-
-    
 #comment{height:4rem;
     border-bottom-right-radius: 21px;
     border-bottom-left-radius: 21px;
@@ -1052,8 +1012,28 @@ margin-left:10px;}
     justify-items: center;
     align-items: center;}
 
-.post{
-    margin-right: 4rem;
+/* formulario de comentarios media query */
+
+.grid-comment{display: grid;
+    grid-template-columns: 80vw 1fr;
+    grid-template-rows: auto;
+    justify-items: end;
+    align-items: center;}
+
+.post{grid-column: 2/3;
+    grid-row: 1/2;
+    margin-right: 15% ;
+}
+.comment-form-tutorials input{ color:#898989;
+    font-size: 1.1rem;
+    padding-left: 1.9rem;
+    width: 100%;
+    height:4rem;
+    background: #222222;
+    font-size: 1rem;
+    border: 1px solid #222222;
+    outline: none;
+
 }
 
 /*tabla de comentarios media query */
@@ -1062,5 +1042,9 @@ margin-left:10px;}
 
 .iframe-mobile{height:20rem;}
 
+.table-comment{width: 95%;
+    
+}
 
 }
+
