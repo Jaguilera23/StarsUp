@@ -192,7 +192,9 @@ ul{list-style-type: none;}
   margin-bottom: 15rem;
 }
 
-.container-h1{margin-bottom: 10rem;}
+.container-h1{margin-bottom: 10rem;
+;}
+
 
 .card-div1{display: flex;
 	flex-direction: row;
@@ -806,7 +808,7 @@ border-radius: 0.8rem;
 
 }
 
-
+.contact-mobile{display: none;}
 
 
 .comment-form-tutorials input{ color:#898989;
@@ -851,7 +853,7 @@ border-radius: 0.8rem;
     border-color:#FF6D03;
     font-weight: 500;
     font-size: 1rem;
-    line-height: 1.6rem;
+    line-height: 1.3rem;
     margin-bottom: 15%;
     margin-top: 15%;
     cursor: pointer;
@@ -861,11 +863,7 @@ border-radius: 0.8rem;
     grid-row: 1/2;
 }
 
-.post:hover {
-    background-color: transparent;
-    border-color:#FF6D03;
-    border-style:solid;
-}
+
 
 .comment-form{width: 90vw;
     margin-left: 5%;
@@ -877,7 +875,7 @@ border-radius: 0.8rem;
 	align-content: stretch;}
 
 
-.table-comment{width: 100%;
+.table-comment{width: 90%;
     height: 100%;
 margin-left: 5%;
 background-color: #222222;
@@ -885,59 +883,15 @@ border-radius: 1.25rem;
 margin-top: 2rem;
 }
 
-.detail-comment{width: 96%;
-height: 50%;
-border-radius: 1.25rem;
-border-collapse: collapse;
-margin: 2%;
-}
+.border-bottom-comment{border-bottom:1px solid #010101;
+width:98%;
+margin-left: 1%;}
 
-.detail-comment td{width: 25%;
-text-align: left;
-padding-left: 5%;
-padding-bottom: 2%;
-border-bottom:1px solid #010101 ;}
 
-.detail-comment td:first-child{width: 8%;
-    text-align: center;
-    padding-right: 10rem;
-    border-right:1px solid #010101 ;
-}
-
-.detail-comment td:last-child{width: 5%;
-padding-left: 5rem;
-}
-
-.last-comment td{border-bottom: none;}
 
 
 .load-more-comment{width: 34.68rem;
-    height: 2rem;
-    color: #ffffff;
-    background-color: #FF6D03;
-    border-color:#FF6D03;
-    font-weight: 500;
-    border-radius: 0.68rem;
-    font-size: 1rem;
-    line-height: 1.6rem;
-    margin-top: 2%;
-    margin-bottom: 15%;
-    cursor: pointer;
-    transition: all ease-in-out 0.2s;
-    border-style: initial;}
-
-.load-more-comment:hover{background-color: transparent;
-    border-color:#FF6D03;
-    border-style:solid;}
-
-.comment-flex{margin-left: 2.5%;
-    width: 90vw;
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: flex-end;
+    
 }
 
 
@@ -954,6 +908,8 @@ padding-left: 5rem;
 .data-investors-p1{font-size: 4rem;
 }
 .data-investors-p2{margin-bottom: 15%;}
+
+.img-coin{width: fit-content;}
 
 
 /*contact media query*/
@@ -1050,7 +1006,7 @@ height:25rem;
 
 .h2-product-detail{font-size: 1.79rem;}
 
-.card-product-detail{margin-left: 5%;}
+.card-product-detail{margin-left: 12%;}
 
 /*table media query*/
 
@@ -1058,7 +1014,53 @@ height:25rem;
 
 .table-volume{width:95%;
 margin-left:10px;}
-}
+
 
 /*tutorials media query*/
 .h2-tutorials{font-size: 2.5rem;}
+
+/*comment form tutorials media query */
+
+
+.comment-form-tutorials{
+    margin-top: 5%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+	align-content: stretch;
+    border-radius: 21px;
+    margin-bottom: 1.6rem;
+
+}
+
+
+    
+#comment{height:4rem;
+    border-bottom-right-radius: 21px;
+    border-bottom-left-radius: 21px;
+    border-top: transparent;
+    grid-column: 1 / 3;
+    grid-row: 1/2;
+    
+}
+
+.grid-comment{display: grid;
+    grid-template-columns: 84.4vw 10vw;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;}
+
+.post{
+    margin-right: 4rem;
+}
+
+/*tabla de comentarios media query */
+
+.load-more-comment{width:25rem}
+
+.iframe-mobile{height:20rem;}
+
+
+}

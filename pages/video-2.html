@@ -62,75 +62,95 @@
     </header> 
         <!--nuevo header usando bootstrap fin-->
     <main>
-        <h2 class="h2-tutorials">Community crypto videos trending</h2>
-        <div class="video-principal">
-            <div class="video-tutorial-playmore">
-                <iframe  src="https://www.youtube.com/embed/GOfdJO4tU2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>></iframe>
-            </div>
-        </div>    
-        <div class="texto1-videopage">
-            <div class="tutorial-flex">
-                <h5>Alejandro Sewrjugin</h5>
-                <p>16 min</p>
-            </div>
-            <h6>Blockchain</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa consequuntur cum quia veritatis quo omnis?</p>
-        </div>
-        <div class="comment-form">
-            <form action="#" target="_blank" method="post" id="form" class="comment-form-tutorials">
-                <label for="text"></label>
-                <input type="text" name="title" id="title" placeholder="Comment Title" required>
-                <label for="text"></label>
-                <div class="grid-comment">
-                    <input type="text" name="comment" id="comment" placeholder="Text your Comment..." required>
-                    <button class="post">Post</button>
+        <div class="container">
+            <div class="row ">
+                <div class="col-12  mb-5 mt-5">
+                    <h2 class="h2-tutorials mt-5">Community crypto videos trending</h2>
                 </div>
-            </form>
-        </div>
-        <div class="comment-flex">
-            <div class="table-comment">
-                <table class="detail-comment">
-                    <tbody>
-                        <tr>
-                            <td class="date">Jan 22</td>
-                            <td>
-                                <h6>Titulo del comentario 01</h6>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <p><img src="../assets/logos/comment-icon.png"> 3 comments</p>
-                            </td>
-                            <td><img src="../assets/img/people1.png" alt=""></td>
-                        </tr>
-                        <tr>
-                            <td class="date">Jan 01</td>
-                            <td>
-                                <h6>Titulo del comentario 02</h6>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <p><img src="../assets/logos/comment-icon.png"> 3 comments</p>
-                            </td>
-                            <td><img src="../assets/img/people2.png" alt=""></td>
-                        </tr>
-                        <tr>
-                            <td class="date">Jan 14</td>
-                            <td>
-                                <h6>Titulo del comentario 03</h6>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <p><img src="../assets/logos/comment-icon.png"> 3 comments</p>
-                            </td>
-                            <td><img src="../assets/img/people1.png" alt=""></td>
-                        </tr>
-                        <tr class="last-comment">
-                            <td class="date">Jan 16</td>
-                            <td>
-                                <h6>Titulo del comentario 04</h6>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <p><img src="../assets/logos/comment-icon.png"> 3 comments</p>
-                            </td>
-                            <td><img src="../assets/img/people2.png" alt=""></td>
-                        </tr>
-                    </tbody>    
-                </table>
             </div>
-            <button type="submit" id="load-more-comment" class="load-more-comment">Load 13 more comments</button> 
+            <div class="row mb-5">
+                <iframe height="590" src="https://www.youtube.com/embed/GOfdJO4tU2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="col-12 iframe-mobile"></iframe>
+            </div>
+            <div class="row p-tutorial">
+                <h5>Josh Kaufman</h5>
+            </div>
+            <div class="row ">
+                <h6 class="col-md-11 col-9">How to Learn Anything</h6>
+                <p class="col-md-1 col-3">19 min</p>
+            </div>
+            <div class="row p-tutorial">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa consequuntur cum quia veritatis quo omnis?</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="">
+                        <form action="#" target="_blank" method="post" id="form" class="comment-form-tutorials">
+                            <label for="text"></label>
+                            <input type="text" name="title" id="title" placeholder="Comment Title" required>
+                            <label for="text"></label>
+                            <div class="grid-comment">
+                                <input type="text" name="comment" id="comment" placeholder="Text your Comment..." required>
+                                <button class="btn post">Post</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container table-comment">
+            <div class="row   pt-3 ps-3 border-bottom-comment">
+                <div class="col-md-2 col-3 ">Jan 22</div>
+                <div class="col-md-7 col-5">
+                    <h6>Titulo del comentario 01</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p><img src="../assets/logos/comment-icon.png"> 3 comments</p>
+                </div>
+                <div class="col-md-2 col-4">
+                    <img src="../assets/img/people1.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mt-2 ps-3 border-bottom-comment">
+                <div class="col-md-2 col-3 ">Jan 22</div>
+                <div class="col-md-7 col-6">
+                    <h6>Titulo del comentario 01</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p><img src="../assets/logos/comment-icon.png"> 3 comments</p>
+                </div>
+                <div class="col-md-2 col-3">
+                    <img src="../assets/img/people2.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mt-2 ps-3 border-bottom-comment">
+                <div class="col-md-2 col-3 ">Jan 22</div>
+                <div class="col-md-7 col-5">
+                    <h6>Titulo del comentario 01</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p><img src="../assets/logos/comment-icon.png"> 3 comments</p>
+                </div>
+                <div class="col-md-2 col-4">
+                    <img src="../assets/img/people1.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mt-2 ps-3 border-bottom-comment">
+                <div class="col-md-2 col-3 ">Jan 22</div>
+                <div class="col-md-7 col-6">
+                    <h6>Titulo del comentario 01</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p><img src="../assets/logos/comment-icon.png"> 3 comments</p>
+                </div>
+                <div class="col-md-2 col-3">
+                    <img src="../assets/img/people2.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <button type="submit" class="btn mt-4 mb-4 load-more-comment">Load more comments</button>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="container mt-5">
