@@ -23,6 +23,7 @@ body, html {
 
 .btn.border-orange{border:1px solid #FF6D03;
     background: #010101;
+
 }
 
 .btn.border-orange:hover{
@@ -31,8 +32,12 @@ body, html {
 
 .btn:hover{border: 1px solid #FF6D03;}
 
-button, .btn{background:#FF6D03;
-color:#ffffff}
+ .btn{background:#FF6D03;
+color:#ffffff;
+border-radius: 11px;}
+
+.btn.post{border-radius: 0;
+}
 
 
 
@@ -92,10 +97,12 @@ font-family: 'inter';
 
 .padding-text-table{text-align: left;}
 
-.img-coin{width: 24px;
-    height: 1.5rem;
-    padding-right: 1rem;
+.img-coin{width: 34px;
+    margin-right: 3%;
 }
+
+.img-coin-detail{width: 2.5rem;
+margin-left: 5%;}
 
 th,td{
     padding-top: 2.5%;
@@ -104,7 +111,9 @@ th,td{
     
 }
 
-.img-coin-btc{width: 47px;}
+.padding-img img{padding-top: 1rem;}
+
+.img-coin-btc{width: 48px;}
 
 .percentage-profit{color: #14C67A;
 }
@@ -170,7 +179,7 @@ ul{list-style-type: none;}
 }
 
 
-.head-list{font-weight: bold;
+.head-list{font-weight: regular;
 }
 
 .download img{padding-top: 5%;}
@@ -194,13 +203,17 @@ font-size: 48px;}
 
 .p-cards-loss span{color: #FF5454;}
 
+
+
 .card{
     background: #222222;
     border: 1px solid #474747;
     border-radius: 1rem;
-  
+
 
 }
+
+.history p{font-weight:lighter;}
 
 .col-3.card{width: 28%;}
 
@@ -227,10 +240,6 @@ font-size: 48px;}
 
 .inverstor-margin-top{margin-top: 20%;}
 
-.img-coin{width:3rem;
-    height: 2.8rem;
-
-}
 
 .coin{font-weight: 500;
     font-family:'clash Display Variable';
@@ -270,7 +279,11 @@ hr{width: 88%;
     margin-bottom: 1rem;
 }
 
-.info-card span{color: #14C67A;}
+.info-card span{color: #14C67A;
+font-size: 16px;}
+
+.card-text{font-size: 12px;
+}
 
 .info-card-loss span{color: #FF5454;}
 
@@ -446,13 +459,34 @@ hr{width: 88%;
 
 .contact-form-margin{margin-top: 18%;}
 
-.form-control::placeholder{color:#474747;
-    
+.contact-form-margin h2{font-family: 'Clash Variable Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110%;}
+
+.contact-form-margin p{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #898989;}
+
+.form-control::placeholder{color:
+    #898989;
+    font-weight: 400;
+font-size: 18px;
+line-height: 150%;
 }
 
 .form-control{background-color: #222222;
-    border: 1px solid #474747;
+    border: none;
+    border-radius: 21px;
 }
+
+input{height: 5.1rem;}
+
+textarea{height: 25rem;}
 
 .form-control:focus{outline: none;
 background-color: #222222;
@@ -483,18 +517,13 @@ background-color: #222222;
 
 }
 
-.h2-pl2-1{width: 60%;
+.h2-pl2-1{width: 100%;
     font-family: 'Clash Display Variable';
     font-style: normal;
     font-weight: 500;
     font-size: 3rem;
 }
 
-.h2-gift{width: 100%;
-    font-family: 'Clash Display Variable';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 3rem;}
 
 .h2-pl2-1-end{width: 100%;
     font-family: 'Clash Display Variable';
@@ -504,110 +533,14 @@ background-color: #222222;
 
 }
 
-.paragraph {
-    font-family: 'inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-    color: #898989;
-}
 
-.button-pl{display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: baseline;
-	align-content: stretch;
-}
 
-.button-watch-videos{width: 8.2rem;
-    height: 2.8rem;
-    color: #ffffff;
-    background-color: transparent;
-    border-radius: 11px;
-    border-color:#FF6D03;
-    font-weight: 500;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-left: 0.6rem;
-    border:1px solid #FF6D03
-    
-}
-
-.button-watch-videos:hover{background-color: #FF6D03;
-}
 /*  fin estilos product list con el texto a la derecha */
 
 
 /*estilo lista de productos con texto a la izquierda */
 
-.grid-container2{display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto ;   
-    justify-content: space-between;
-    margin-top: 1%;
-    margin-left: 4%;
-    column-gap: 6rem;
-}
 
-
-.img-gradiente2{grid-column:2 / 3 ;
-    grid-row: 1/2;
-    width: 34.3rem;
-    height: 40rem;
-    position: relative;
-    margin-right: 2%;
-}
-
-.img-gradiente2 img{width: 100%;
-}
-
-.gradiente-der, .tarjeta-der {
-    position: absolute;
-    top: 5rem;
-    left: -0.8rem;
-}
-.gradiente-der {z-index: 1;
-grid-column:2 / span 1;
-}
-
-.tarjeta-der {z-index: 2;
-    grid-column:2 / span 1;
-}
-
-.description2{grid-column: 1 / 2;
-    grid-row:1 / 4;
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items:flex-end;
-	align-content: center;
-    z-index: 1;
-    text-align: end;
-}
-
-.paragraph {width: 100%;
-    height: 20%;
-    font-family: 'inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-    color: #898989;
-}
-
-.button-pl{display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: baseline;
-	align-content: stretch;}
 
 
 .tarjeta-1{width: 80%;
@@ -618,16 +551,22 @@ height: auto;}
 
 .product-list{margin-top: 10%;}
 
+.product-list p{color:  #898989;
+    line-height: 170%;
+    }
+
 .product-row-mb{margin-bottom: 25%;}
 /* fin estilo lista de productos con texto a la izquierda */
 
 /* Product Detail styles */
 
+.product-row-mb-detail{margin-bottom: 15%;}
+
 .h2-product-detail{font-family: 'Clash Display Variable';
     font-style: normal;
     font-weight: 500;
     font-size: 3rem;
-;
+
 }
 
 .market-sumary-mt{margin-top: 10%;}
@@ -635,14 +574,25 @@ height: auto;}
 
 
 .card-product-detail{width: 19rem;
-    height: 4.5rem;
+    height:6rem;
     background: #222222;
     border: 1px solid #474747;
     border-radius: 1rem;
 }
 
-.logo-card-detail{width: 2rem;
-margin-left: 0.5rem;
+.card-product-detail p{color: #ffffff;}
+
+.coin-detail{font-family: 'inter';
+font-size: 1rem;
+font-style:normal;
+font-weight: 400;
+
+}
+
+.logo-card-detail{width: 2.1rem;
+margin-left: 1rem;
+margin-top:0.2rem;
+
 }
 
 .img-card-product-detail{width: 6rem;
@@ -656,14 +606,7 @@ margin-left: 0.5rem;
     height: 1rem;}
 
 
-.p-product-detail{font-family: 'inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 150%;
-    color: #898989;
 
-}
 
 br{margin-bottom: 2%;
 }
@@ -722,7 +665,12 @@ font-family: 'Clash Display Variable';
 
 .mb-tutorials span{color: #FF6D03;}
 
+.mb-tutorials h2{margin-bottom: 12%;}
 
+.row1-tutorials{margin-bottom: 8%;}
+
+iframe{border-radius: 40px;
+}
 
 h5{font-size: 1rem;
 font-family: 'inter';
@@ -822,6 +770,9 @@ border-radius: 0.8rem;
     margin-bottom: 1.6rem;
 }
 
+.comment-title input::placeholder{color:#ffffff;
+opacity: 1;}
+
 .contact-mobile{display: none;}
 
 
@@ -883,11 +834,19 @@ border-radius: 0.8rem;
     margin-top: 2rem;
 }
 
+.table-comment p{font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;}
+
+.table-comment h6{font-weight: 500;
+font-size: 18px;
+line-height: 22px;}
+
 .border-bottom-comment{border-bottom:1px solid #010101;
 width:98%;
 margin-left: 1%;}
 
-
+.btn-square{border-radius: none;}
 
 
 .load-more-comment{width: 34.68rem;
@@ -1058,6 +1017,8 @@ margin-left:10px;}
     grid-row: 1/2;
     margin-right: 15% ;
 }
+
+
 .comment-form-tutorials input{ color:#898989;
     font-size: 1.1rem;
     padding-left: 1.9rem;
@@ -1068,6 +1029,8 @@ margin-left:10px;}
     border: 1px solid #222222;
     outline: none;
 }
+
+.img-contacts-mobile{width:7rem}
 
 /*tabla de comentarios media query */
 
@@ -1087,5 +1050,9 @@ margin-left:10px;}
 .download-mobile{display: block;}
 
 footer{margin-top: 35%;}
+
+.history{margin-left: 8%;
+margin-right: 5%;}
+
 }
 
