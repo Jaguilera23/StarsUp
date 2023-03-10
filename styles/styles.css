@@ -869,6 +869,25 @@ margin-left: 1%;
 
 
 
+/*brandbook stykes*/
+
+/*navbar brandbook */
+
+.navbar-brand-brandbook{width: 245.17px;
+    height: 66px;
+margin-right: 23.55rem;}
+
+
+
+
+
+
+
+
+
+
+
+
 /*media query*/
 
 @media screen and (min-width: 300px) and (max-width:768px){
@@ -985,9 +1004,12 @@ height:25rem;
 
 /*product detail media query*/
 
-.p-justify p{text-align: justify;}
+.m-left-p{margin-left: 5%;}
 
-.chart{display:none;}
+.chart{margin-top: 8%;
+    padding-right: 3%;
+
+}
 
 .h2-product-detail{font-size: 1.79rem;}
 
