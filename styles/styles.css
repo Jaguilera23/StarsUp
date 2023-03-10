@@ -877,18 +877,55 @@ margin-left: 1%;
     height: 66px;
 margin-right: 23.55rem;}
 
+.creadores img{width:1.9rem;
+    margin-bottom: 18.28px;
+}
 
+.creadores, h5{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+ 
+}
 
+.creadores p{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+}
 
+.creadores span{font-weight: bold;}
 
+.redes{margin-top: 7%;}
 
+.creadores{margin-left: 5%;   
+    margin-bottom: 3.25rem;
+    margin-top: 9.3rem;}
 
+.design{margin-top: 36px;}
 
+.design h5{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
 
+.design-p{width: 65rem;
+    height: 165px;
+    background: #181818;
+    border: 1px solid #010101;
+    border-radius: 20px;    
+}
 
+.title-tech{margin-top: 15%;
+margin-left: 21.5rem;}
 
+.img-tech{width:55%}
 
-/*media query*/
+.tech-mb{margin-bottom: 20%;}
 
 @media screen and (min-width: 300px) and (max-width:768px){
 
@@ -1008,6 +1045,7 @@ height:25rem;
 
 .chart{margin-top: 8%;
     padding-right: 3%;
+    height: 12rem;
 
 }
 
