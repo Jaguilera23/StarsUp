@@ -17,6 +17,9 @@ body, html {
     
 }
 
+.desktop-no{display: none;
+}
+
 .download-mobile{display: none;}
 .mobile-br{display: none;
 }
@@ -313,7 +316,7 @@ font-size: 16px;}
 .card-color-sell{color:#FF5454
 }
 
-.card-color-buy{color: #38F808;
+.card-color-buy{color: #14C67A;
 }
 
 .cards-row-1{display: flex;
@@ -459,7 +462,7 @@ font-size: 16px;}
 
 .contact-form-margin{margin-top: 18%;}
 
-.contact-form-margin h2{font-family: 'Clash Variable Display';
+.contact-form-margin h2{font-family: 'Clash display';
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -663,14 +666,14 @@ font-family: 'Clash Display Variable';
 
 .mb-tutorials{margin-bottom: 10%;}
 
+.mb-tutorials p{font-weight: lighter;}
+
 .mb-tutorials span{color: #FF6D03;}
 
 .mb-tutorials h2{margin-bottom: 12%;}
 
 .row1-tutorials{margin-bottom: 8%;}
 
-iframe{border-radius: 40px;
-}
 
 h5{font-size: 1rem;
 font-family: 'inter';
@@ -700,6 +703,14 @@ h6{font-family: 'Inter';
     font-size: 1rem;
     letter-spacing: 0.02rem;
     margin-bottom: 0.7rem;}
+
+.p-tutorial h5{font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
 
 .grid-container-tutorial span{width: 8rem;
     height: 1.1rem;  
@@ -776,6 +787,7 @@ opacity: 1;}
 .contact-mobile{display: none;}
 
 
+
 .comment-form-tutorials input{ color:#898989;
     font-size: 1.1rem;
     padding-left: 1.9rem;
@@ -844,7 +856,9 @@ line-height: 22px;}
 
 .border-bottom-comment{border-bottom:1px solid #010101;
 width:98%;
-margin-left: 1%;}
+margin-left: 1%;
+}
+
 
 .btn-square{border-radius: none;}
 
@@ -858,6 +872,8 @@ margin-left: 1%;}
 /*media query*/
 
 @media screen and (min-width: 300px) and (max-width:768px){
+
+.desktop-no{display: block;}
 
 .section-cards h2{font-size: 40px;}
 
@@ -968,6 +984,8 @@ height:25rem;
 .h2-pl2-1-end{font-size: 1.79rem;}
 
 /*product detail media query*/
+
+.p-justify p{text-align: justify;}
 
 .chart{display:none;}
 
