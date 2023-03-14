@@ -8,7 +8,7 @@
 }
 
 body, html {
-  font-family: "inter", sans-serif;
+  font-family: " $principal-font";
   background: #010101;
   color: #ffffff;
 }
@@ -65,7 +65,7 @@ body, html {
 
 .button-new-account button:hover {
   background-color: transparent;
-  border-color: colorborderbtn;
+  border-color: #FF6D03;
   border-style: solid;
 }
 
@@ -113,13 +113,13 @@ a:visited {
 }
 
 .display-2 {
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
   font-weight: 500;
   margin-top: 10%;
 }
 
 .clash-display h3 {
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
   font-size: 1.8rem;
 }
 
@@ -194,7 +194,7 @@ th, td {
 
 .subtitle h2 {
   margin-left: 3%;
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
   font-weight: 500;
   font-size: 3rem;
   line-height: 110%;
@@ -263,7 +263,7 @@ ul {
 }
 
 .section-cards h2 {
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
   font-weight: 500;
   font-size: 48px;
 }
@@ -312,7 +312,7 @@ ul {
 
 .coin {
   font-weight: 500;
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
   font-size: 18px;
 }
 
@@ -343,7 +343,7 @@ ul {
 }
 
 .card-title {
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
   font-weight: 500;
   font-size: 24px;
 }
@@ -435,7 +435,7 @@ hr {
   margin-bottom: 5%;
   text-align: center;
   font-weight: 500;
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
 }
 
 .exchanges img {
@@ -467,7 +467,7 @@ hr {
   margin-bottom: 5%;
   text-align: center;
   font-weight: 500;
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
   margin-left: 6%;
   width: 100%;
 }
@@ -476,7 +476,7 @@ hr {
   font-weight: 500;
   font-size: 5rem;
   line-height: 100%;
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
   color: #ffffff;
 }
 
@@ -503,7 +503,7 @@ hr {
 
 .new-account h2 {
   width: 60%;
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
   font-style: normal;
   font-weight: 500;
   font-size: 3rem;
@@ -593,7 +593,7 @@ textarea {
 }
 
 .h4-pl1-1 {
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
   font-style: normal;
   font-weight: lighter;
   font-size: 1.5rem;
@@ -601,7 +601,7 @@ textarea {
 
 .h2-pl2-1 {
   width: 100%;
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
   font-style: normal;
   font-weight: 500;
   font-size: 3rem;
@@ -609,7 +609,7 @@ textarea {
 
 .h2-pl2-1-end {
   width: 100%;
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
   font-style: normal;
   font-weight: 500;
   font-size: 3rem;
@@ -643,7 +643,7 @@ textarea {
 }
 
 .h2-product-detail {
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
   font-style: normal;
   font-weight: 500;
   font-size: 3rem;
@@ -751,7 +751,7 @@ br {
 .h2-tutorials {
   font-size: 3rem;
   font-weight: 500;
-  font-family: "Clash Variable Display";
+  font-family: "Clash Display Variable";
 }
 
 .mb-tutorials {
@@ -1270,5 +1270,4 @@ h6 {
     margin-left: 8%;
     margin-right: 5%;
   }
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
