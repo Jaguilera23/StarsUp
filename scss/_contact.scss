@@ -1,0 +1,57 @@
+@import "colors";
+@import "fonts";
+
+.contact-form-margin {
+    margin-top: 18%;
+  }
+  
+  .contact-form-margin h2 {
+    font-family: $clashd;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110%;
+  }
+  
+@mixin font-control {font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color:$colorgray
+}
+
+  .contact-form-margin p {
+    font-family: $principal-font;
+    font-style: normal;
+    @include font-control;
+  }
+  
+  .form-control::-moz-placeholder {
+    @include font-control;
+  }
+  
+  .form-control:-ms-input-placeholder {
+    @include font-control;
+  }
+  
+  .form-control::placeholder {
+    @include font-control;
+  }
+  
+  .form-control {
+    background-color: $colorgraydark;
+    border: none;
+    border-radius: 21px;
+  }
+  
+  input {
+    height: 5.1rem;
+  }
+  
+  textarea {
+    height: 25rem;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    background-color: $colorgraydark;
+  }

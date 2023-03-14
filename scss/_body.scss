@@ -1,0 +1,26 @@
+
+* {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: $principal-font;
+
+    background:$bgblack;
+
+    color:$textwhite;
+    
+    
+}
+
+.desktop-no{display: none;}
+
+.download-mobile{display: none;}
+
+.mobile-br{display: none;
+}

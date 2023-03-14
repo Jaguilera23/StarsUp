@@ -1,0 +1,112 @@
+@import "colors";
+@import "fonts";
+
+.product-row-mb-detail {
+    margin-bottom: 15%;
+  }
+  
+  .h2-product-detail {
+    font-family: $clashvd;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+  }
+  
+  .market-sumary-mt {
+    margin-top: 10%;
+  }
+  
+  .card-product-detail {
+    width: 19rem;
+    height: 6rem;
+    background: $black;
+    border: 1px solid $bordergray;
+    border-radius: 1rem;
+  }
+  
+  .card-product-detail p {
+    color:$textwhite;
+  }
+  
+  .coin-detail {
+    font-family: $principal-font;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .logo-card-detail {
+    width: 2.1rem;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+  }
+  
+  .img-card-product-detail {
+    width: 6rem;
+  }
+  
+  .p-coin-detail-white {
+    color:$textwhite;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 0.8rem;
+    width: 1%;
+    height: 1rem;
+  }
+  
+  br {
+    margin-bottom: 2%;
+  }
+  
+  .section-cards br {
+    margin-bottom: 0;
+  }
+  
+  .cards-c-detail {
+    width: 100%;
+    justify-content: center;
+    margin: 5%;
+    height: 3rem;
+  }
+  
+  .p-text-center {
+    text-align: center;
+  }
+  
+  .chart {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  
+  .chart-group {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    margin-left: 6%;
+  }
+  
+  .view-all-market {
+    width: 20rem;
+    height: 2rem;
+    color:$textwhite;
+    background-color: $colorbtn;
+    border-color: $colorbtn;
+    font-weight: 500;
+    border-radius: 0.68rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-top: 2%;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+    border-style: initial;
+  }
+  
+  .view-all-market:hover {
+    background-color: transparent;
+    border-color: $colorbtn;
+    border-style: solid;
+  }

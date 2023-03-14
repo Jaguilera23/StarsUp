@@ -1,0 +1,230 @@
+@import "colors";
+
+
+@media screen and (min-width: 300px) and (max-width:768px){
+    
+    .desktop-no{display: block;
+    }
+    
+    .section-cards h2{font-size: 40px;
+    }
+    
+    .container-table{margin-bottom: 25%;
+    margin-top: 10%;}
+    
+    .container-h1{margin-bottom: 8%;
+    }
+    
+    .mobile-no{display: none;
+    }
+    
+    .mobile-br{display: block;
+    }
+    
+    
+    .data-investors-p1{font-size: 4rem;
+    }
+    .data-investors-p2{margin-bottom: 15%;
+    }
+    
+    .img-coin{width: fit-content;
+    }
+    
+    .inverstor-margin-top{margin-top: 35%;
+    }
+    
+    
+    /*contact media query*/
+    
+    .contact-form-margin{margin-right: 15px;}
+    
+    form{color:textwhite}
+    
+    /*home media query*/
+    
+    .h1-home-mobile{margin-left: 10px;}
+    
+    .wallet-mobile{margin-left: 10px;}
+    
+    
+    
+    /*product list media query */
+    
+    .grid-container1{display: grid;
+        grid-template-columns: 27.5rem;
+        grid-template-rows: 25rem 25rem ;   
+        justify-content: center;
+        align-items: center;
+        margin-top: 8%;
+        margin-left: 8%;
+        column-gap: 6rem;
+    }
+    
+    .grid-container1{grid-template-columns:27.5rem ;
+        grid-template-rows: 25rem 33.25rem;}
+    
+    .img-gradiente{grid-column: 1 / 2;
+        grid-row: 2/3;
+        width: 85%;
+        margin-left: -3%;
+    }
+    .description{grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    
+    .h2-pl1-1{height: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    .grid-container2{display: grid;
+        grid-template-columns: 27.5rem;
+        grid-template-rows: 25rem 25rem ;   
+        justify-content: center;
+        align-items: center;
+        margin-top:-5% ;
+        margin-left: 8%;
+        column-gap: 6rem;
+    }
+    
+    .grid-container2{grid-template-columns:27.5rem ;
+        grid-template-rows: 25rem 33.25rem;}
+    
+    .img-gradiente2{grid-column: 1 / 2;
+        grid-row: 2/3;
+        width: 85%;
+        margin-left: -3%;
+    }
+    .description2{grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items:flex-start;
+        align-content: center;
+        z-index: 1;
+        text-align: start;
+    }
+    
+    
+    /*product list media query end */
+    
+    .tarjeta-1{width: 20rem;
+        height:25rem;
+    }
+    .description-product-list{margin-bottom: 10%;
+    ;}
+    
+    .h2-pl2-1{font-size: 1.79rem;
+    }
+    
+    .h2-pl2-1-end{font-size: 1.79rem;
+    }
+    
+    /*product detail media query*/
+    
+    .m-left-p{margin-left: 5%;
+    }
+    
+    .chart{margin-top: 8%;
+        padding-right: 3%;
+        height: 12rem;
+    
+    }
+    
+    .h2-product-detail{font-size: 1.79rem;
+    }
+    
+    .card-product-detail{margin-left: 12%;
+    }
+    
+    /*table media query*/
+    
+    .padding-text-table span{display: none;
+    }
+    
+    .table-volume{width:95%;
+        margin-left:10px;
+}
+    
+    
+    /*tutorials media query*/
+        .h2-tutorials{font-size: 2.5rem;
+    }
+    
+    /*comment form tutorials media query */
+    
+    
+    #comment{height:4rem;
+        border-bottom-right-radius: 21px;
+        border-bottom-left-radius: 21px;
+        border-top: transparent;
+        grid-column: 1 / 3;
+        grid-row: 1/2;
+    }
+    
+    .grid-comment{display: grid;
+        grid-template-columns: 84.4vw 10vw;
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    /* formulario de comentarios media query */
+    
+    .grid-comment{display: grid;
+        grid-template-columns: 80vw 1fr;
+        grid-template-rows: auto;
+        justify-items: end;
+        align-items: center;
+    }
+    
+    .post{grid-column: 2/3;
+        grid-row: 1/2;
+        margin-right: 15% ;
+    }
+    
+    
+    .comment-form-tutorials input{ color:$colorgray;
+        font-size: 1.1rem;
+        padding-left: 1.9rem;
+        width: 100%;
+        height:4rem;
+        background: $black;
+        font-size: 1rem;
+        border: 1px solid $black;
+        outline: none;
+    }
+    
+    .img-contacts-mobile{width:7rem
+    }
+    
+    /*tabla de comentarios media query */
+    
+    .load-more-comment{width:25rem;
+    }
+    
+    .iframe-mobile{height:20rem;
+    }
+    
+    .table-comment{width: 95%; 
+    }
+    
+    /*footer media query */
+    
+    .img-rrss {width: 5rem;
+    }
+    
+    .download-mobile{display: block;}
+    
+    footer{margin-top: 35%;
+    }
+    
+    .history{margin-left: 8%;
+    margin-right: 5%;
+}
+    
+    }
+    
+    
+    

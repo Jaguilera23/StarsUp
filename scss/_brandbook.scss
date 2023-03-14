@@ -1,0 +1,77 @@
+@import "colors";
+@import "fonts";
+
+/*navbar brandbook */
+.navbar-brand-brandbook {
+    width: 245.17px;
+    height: 66px;
+    margin-right: 23.55rem;
+  }
+  
+  .creadores img {
+    width: 1.9rem;
+    margin-bottom: 18.28px;
+  }
+  
+  .creadores, h5 {
+    font-family:$principal-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  
+  .creadores p {
+    font-family:$principal-font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  
+  .creadores span {
+    font-weight: bold;
+  }
+  
+  .redes {
+    margin-top: 7%;
+  }
+  
+  .creadores {
+    margin-left: 5%;
+    margin-bottom: 3.25rem;
+    margin-top: 9.3rem;
+  }
+  
+  .design {
+    margin-top: 36px;
+  }
+  
+  .design h5 {
+    font-family:$principal-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  
+  .design-p {
+    width: 65rem;
+    height: 165px;
+    background: $graybox;
+    border: 1px solid bgblack;
+    border-radius: 20px;
+  }
+  
+  .title-tech {
+    margin-top: 15%;
+    margin-left: 21.5rem;
+  }
+  
+  .img-tech {
+    width: 55%;
+  }
+  
+  .tech-mb {
+    margin-bottom: 20%;
+  }

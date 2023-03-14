@@ -1,0 +1,432 @@
+
+@import "colors";
+@import "fonts";
+
+
+
+.coins p {
+    font-weight: 300;
+    line-height: 150%;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: currentColor;
+  }
+  
+  a:visited {
+    color: inherit;
+    text-decoration: none;
+    -webkit-text-decoration-color: currentColor;
+            text-decoration-color: currentColor;
+  }
+  
+  .img-rrss {
+    width: 8rem;
+  }
+  
+  .display-2 {
+    font-family: $clashvd;
+    font-weight: 500;
+    margin-top: 10%;
+  }
+  
+  .clash-display h3 {
+    font-family: $clashvd;
+    font-size: 1.8rem;
+  }
+  
+  .table-volume {
+    background-color: $black;
+    border-radius: 1.25rem;
+    border-collapse: collapse;
+    border: 1px solid $bordergray;
+  }
+  
+  .currency-table {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .table-volume th:first-child {
+    text-align: left;
+  }
+  
+  .thead {
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1%;
+    font-family: $principal-font;
+  }
+  
+  .padding-text-table {
+    text-align: left;
+  }
+  
+  .img-coin {
+    width: 34px;
+    margin-right: 3%;
+  }
+  
+  .img-coin-detail {
+    width: 2.5rem;
+    margin-left: 5%;
+  }
+  
+  th, td {
+    padding-top: 2.5%;
+    text-align: center;
+    display: table-cell;
+  }
+  
+  .padding-img img {
+    padding-top: 1rem;
+  }
+  
+  .img-coin-btc {
+    width: 48px;
+  }
+  
+  .percentage-profit {
+    color: $colorprofit;
+  }
+  
+  .percentage-loss {
+    color: $colorloss;
+  }
+  
+  .subtitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    padding-bottom: 8%;
+  }
+  
+  .subtitle h2 {
+    margin-left: 3%;
+    font-family: $clashvd;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 110%;
+    width: 35%;
+  }
+  
+  .subtitle p {
+    width: 50%;
+    height: 35%;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 150%;
+    color: $colorgray;
+  }
+  
+  .subtitle-p-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-start;
+    margin-right: 2%;
+    width: 50%;
+  }
+  
+  .subtitle-p-flex span {
+    padding-top: 2%;
+    padding-right: 33.5%;
+    font-weight: 900;
+    font-size: 1rem;
+    width: 50%;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .li-light {
+    font-weight: 100;
+    color: $colorgray;
+    padding-top: 0.4rem;
+  }
+  
+  .head-list {
+    font-weight: regular;
+  }
+  
+  .download img {
+    padding-top: 5%;
+  }
+  
+  .watermark {
+    text-align: center;
+    padding-bottom: 10%;
+    width: 100%;
+    height: 2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    color: $colorgray;
+  }
+  
+  .section-cards {
+    margin-bottom: 15%;
+  }
+  
+  .section-cards h2 {
+    font-family: $clashvd;
+    font-weight: 500;
+    font-size: 48px;
+  }
+  
+  .p-cards-loss span {
+    color:$colorloss;
+  }
+  
+  .card {
+    background: $black;
+    border: 1px solid $bordergray;
+    border-radius: 1rem;
+  }
+  
+  .history p {
+    font-weight: lighter;
+  }
+  
+  .col-3.card {
+    width: 28%;
+  }
+  
+  .container-table {
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+  }
+  
+  .container-h1 {
+    margin-bottom: 10rem;
+  }
+  
+  .card-div1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    padding-bottom: 2%;
+    padding-top: 5%;
+  }
+  
+  .inverstor-margin-top {
+    margin-top: 20%;
+  }
+  
+  .coin {
+    font-weight: 500;
+    font-family: $clashvd;
+    font-size: 18px;
+  }
+  
+  .p-coin {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 0.8rem;
+    width: 2%;
+    height: 1.8rem;
+    color: $textwhite;
+  }
+  
+  .img-card {
+    width: 9rem;
+    height: 4rem;
+  }
+  
+  .card {
+    padding: 0;
+}
+
+.img-card-volume {
+    width: 100%;
+}
+
+.img-no-padding {
+    padding: 0;
+}
+
+.card-title {
+    font-family: $clashvd;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.card-body p {
+    color: $colorgray;
+}
+
+hr {
+    width: 88%;
+    border: 1px solid $colorgray;
+    align-self: stretch;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info-card span {
+    color: $colorprofit;
+    font-size: 16px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.info-card-loss span {
+    color: $colorloss;
+}
+
+.card-table {
+    width: 3rem;
+    height: 3.8rem;
+    border-radius: 0.6rem;
+    border-collapse: collapse;
+    margin-left: -2%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.card-table td, th {
+    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    text-align: center;
+    font-weight: 200;
+}
+
+.card-table td:first-child {
+    text-align: left;
+    width: 100%;
+    height: 2rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.card-color-sell {
+    color: $colorloss;
+}
+
+.card-color-buy {
+    color: $colorprofit;
+}
+
+@mixin cards-home{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: stretch;}
+
+.cards-row-1 {
+    @include cards-home;
+    margin-bottom: 2rem;
+}
+
+.cards-row-2 {
+    @include cards-home
+}
+
+.exchanges {
+    margin-left: 6%;
+    width: 100%;
+}
+
+.exchanges h3 {
+    margin-bottom: 5%;
+    text-align: center;
+    font-weight: 500;
+    font-family: $clashvd;
+}
+
+.exchanges img {
+    width: 100%;
+    height: 2rem;
+}
+
+@mixin logo {display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: center;
+    
+}
+
+.flex-logo-ex-1 {
+    @include logo;
+    margin-bottom: 5%;
+}
+
+.flex-logo-ex-2 {
+    @include logo;
+    margin-bottom: 15%;
+}
+
+.investors h3 {
+    margin-bottom: 5%;
+    text-align: center;
+    font-weight: 500;
+    font-family: $clashvd;
+    margin-left: 6%;
+    width: 100%;
+}
+
+.data-investors-p1 {
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 100%;
+    font-family: $clashvd;
+    color: $textwhite;
+}
+
+.data-investors-p2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 150%;
+    color: $colorgray;
+}
+
+.coin-carrousel {
+    margin-top: 8rem;
+    background: $colorcarrousel;
+}
+
+.coin-carrousel img {
+    width: 100%;
+}
+
+.new-account {
+    margin-bottom: 10%;
+    background: $black;
+}
+
+.new-account h2 {
+    width: 60%;
+    font-family: $clashvd;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.only {
+    margin-right: 5rem;
+}
+
+.new-account p {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.new-account-p1 {
+    margin-left: 6%;
+}
