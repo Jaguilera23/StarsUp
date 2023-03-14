@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starsup</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="./assets/logos/company.svg" type="image/svg">
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
@@ -85,31 +86,34 @@
     </div>
     <main>
         <!--Card Volume Bootstrap-->
+    
+
+    
         <section class="container  container-table">
             <div class="row">
-                <div class="container col-3  ms-3  card mobile-no">
-                    <div class="container">
-                        <div class="row card-body pb-0">
-                            <h2 class="card-title mt-4 mb-2 display-3 col-12 text-md-start ms-2">12.84%</h2>
-                            <p class="col text-md-start ms-2">Total Trading Volume</p>
-                        </div>
-                        <hr class="mt-0  ms-4">
-                        <div class="row ">
-                            <div class=" col-md-2 col-2  ms-4">
-                                <img src="./assets/logos/bitcoin.svg" alt="bitcoin" class="img-coin-btc">
+                    <div class="container col-3  ms-3  card mobile-no">
+                        <div class="container">
+                            <div class="row card-body pb-0">
+                                <h2 class="card-title mt-4 mb-2 display-3 col-12 text-md-start ms-2">12.84%</h2>
+                                <p class="col text-md-start ms-2">Total Trading Volume</p>
                             </div>
-                            <div class=" col-md-8 ">
-                                <p class="text-white ms-0 mb-0">Bitcoin</p>
-                                <p class="info-card text-white ms-0">today up to <span>+5.34%</span></p>
-                            </div>
-                        </div>   
-                        <div class="row">
-                            <div class=" img-no-padding ">
-                                <img class="img-fluid img-card-volume" src="assets/img/profit1.svg" alt="imageProfit">
-                            </div>
-                        </div>            
+                            <hr class="mt-0  ms-4">
+                            <div class="row ">
+                                <div class=" col-md-2 col-2  ms-4">
+                                    <img src="./assets/logos/bitcoin.svg" alt="bitcoin" class="img-coin-btc">
+                                </div>
+                                <div class=" col-md-8 ">
+                                    <p class="text-white ms-0 mb-0">Bitcoin</p>
+                                    <p class="info-card text-white ms-0">today up to <span>+5.34%</span></p>
+                                </div>
+                            </div>   
+                            <div class="row">
+                                <div class=" img-no-padding ">
+                                    <img class="img-fluid img-card-volume" src="assets/img/profit1.svg" alt="imageProfit">
+                                </div>
+                            </div>            
+                        </div>    
                     </div>    
-                </div>    
         <!--Card Volume Bootstrap fin-->
         <!--Currency Table Bootstrap-->
                 <div class="col-md-8 table-volume">
@@ -174,7 +178,7 @@
                     </div>
                 </div>    
             </div>
-        </section>      
+        </section>         
         <!--Currency Table Bootstrap-->
         <section class="section-cards">
             <div class="container mb-5">
@@ -189,7 +193,7 @@
                 </div>
             </div>
         <!--seccion de tarjetas bootstrap-->
-            <div class="container cards ">
+            <div class="container cards " >
                 <div class="row d-flex  align-items-center">
                     <div class="col mb-4">
                         <div class="container card d-flex align-items-center">
@@ -584,5 +588,9 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>  
 </html>
