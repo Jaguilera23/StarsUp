@@ -994,6 +994,7 @@ h6 {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
+  margin-bottom: 156px;
 }
 
 .creadores p {
@@ -1049,6 +1050,362 @@ h6 {
 
 .tech-mb {
   margin-bottom: 20%;
+}
+
+.typography-box {
+  background: #181818;
+  border: 1px solid bgblack;
+  border-radius: 20px;
+  height: 150px;
+}
+
+.typography-clash-example, .typography-clash h6 {
+  font-family: "Clash Display";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.typography-clash p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.typography-inter-example, .typography-inter h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.typography-inter p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.headings {
+  height: 1680px;
+  background: #181818;
+  border: 1px solid bgblack;
+  border-radius: 20px;
+  margin-bottom: 126px;
+}
+
+.heading-size-1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 96px;
+}
+
+.heading-size-2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 80px;
+}
+
+.heading-size-3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 72px;
+}
+
+.heading-size-4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 64px;
+}
+
+.heading-size-5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 56px;
+}
+
+.heading-size-6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 48px;
+}
+
+.heading-size-7 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.heading-size-8 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.heading-size-9 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.heading-size-10 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.heading-size-11 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.heading-size-12 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.heading-size-12 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.paragraph {
+  height: 500px;
+  background: #181818;
+  border: 1px solid bgblack;
+  border-radius: 20px;
+  margin-bottom: 175px;
+}
+
+.paragraph-size-1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 78px;
+  font-size: 18px;
+}
+
+.paragraph-size-2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 78px;
+  font-size: 16px;
+}
+
+.paragraph-size-3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 78px;
+  font-size: 14px;
+}
+
+.paragraph-size-4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 78px;
+  font-size: 12px;
+}
+
+.paragraph-size-5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 78px;
+  font-size: 10px;
+}
+
+.box, .box-5, .box-4, .box-3, .box-2 {
+  height: 192px;
+  background: #181818;
+  border: 1px solid bgblack;
+  border-radius: 20px;
+  margin-bottom: 175px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+.box-color-1 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #FF6D03;
+}
+
+.box-color-2 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #A9581E;
+}
+
+.box-color-3 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #010101;
+}
+
+.box-color-4 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #222222;
+}
+
+.box-color-5 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #454545;
+}
+
+.box-color-6 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #555555;
+}
+
+.box-color-7 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #D9D9D9;
+}
+
+.box-color-8 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.box-color-9 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #9CFF83;
+}
+
+.box-color-10 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #54A3FF;
+}
+
+.box-color-11 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #FF5454;
+}
+
+.box-color-12 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #FFD15B;
+}
+
+.box-color-13 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #FAFFD1;
+}
+
+.box-color-14 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #A1FFCE;
+}
+
+.box-color-15 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #A1FFCE 0%, #FAFFD1 100%);
+}
+
+.box-2 {
+  height: 339px;
+}
+
+.box-3 {
+  height: 900px;
+}
+
+.box-4 {
+  height: 630px;
+}
+
+.box-5 {
+  height: 490px;
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {

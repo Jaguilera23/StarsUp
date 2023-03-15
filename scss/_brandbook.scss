@@ -19,6 +19,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
+    margin-bottom: 156px;
   }
   
   .creadores p {
@@ -75,3 +76,218 @@
   .tech-mb {
     margin-bottom: 20%;
   }
+
+  .typography-box{background: $graybox;
+    border: 1px solid bgblack;
+    border-radius: 20px;
+    height: 150px;  
+  }
+
+  .typography-clash-example,.typography-clash h6 {font-family: $clashd;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: $textwhite;
+}
+
+.typography-clash p{font-family: $principal-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: $textwhite;
+}
+
+.typography-inter-example,.typography-inter h6 {font-family: $principal-font;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: $textwhite;
+}
+
+.typography-inter p{font-family: $principal-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: $textwhite;
+}
+
+.headings{height: 1680px;
+  background: $graybox;
+  border: 1px solid bgblack;
+  border-radius: 20px;
+  margin-bottom: 126px;
+
+}
+
+@mixin heading {font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: $textwhite;
+}
+
+.heading-size-1{@include heading();
+  font-size: 96px;
+  }
+.heading-size-2{@include heading();
+  font-size: 80px;
+  }
+.heading-size-3{@include heading();
+  font-size: 72px;
+  }
+.heading-size-4{@include heading();
+  font-size: 64px;
+  }
+.heading-size-5{@include heading();
+  font-size: 56px;
+  }
+.heading-size-6{@include heading();
+  font-size: 48px;
+  }
+.heading-size-7{@include heading();
+  font-size: 40px;
+  }
+.heading-size-8{@include heading();
+  font-size: 40px;
+  }
+.heading-size-9{@include heading();
+  font-size: 36px;
+  }
+.heading-size-10{@include heading();
+  font-size: 32px;
+  }
+.heading-size-11{@include heading();
+  font-size: 28px;
+  }
+.heading-size-12{@include heading();
+  font-size: 24px;
+  }
+  .heading-size-12{@include heading();
+    font-size: 20px;
+    }
+
+.paragraph{height: 500px;
+  background: $graybox;
+  border: 1px solid bgblack;
+  border-radius: 20px;
+  margin-bottom: 175px;
+
+}
+
+@mixin paragraph {font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: $textwhite;
+  margin-bottom:78px; 
+}
+
+.paragraph-size-1{@include paragraph();
+  font-size: 18px;
+}
+
+.paragraph-size-2{@include paragraph();
+  font-size: 16px;
+}
+
+.paragraph-size-3{@include paragraph();
+  font-size: 14px;
+}
+
+.paragraph-size-4{@include paragraph();
+  font-size: 12px;
+}
+
+.paragraph-size-5{@include paragraph();
+  font-size: 10px;
+}
+
+.box{height: 192px;
+  background: $graybox;
+  border: 1px solid bgblack;
+  border-radius: 20px;
+  margin-bottom: 175px;
+  font-size: 16px;
+  font-family: $principal-font;
+  font-weight: 300;
+}
+
+@mixin box-color {width: 84px;
+  height: 84px;
+  border-radius: 10px;
+}
+
+.box-color-1{@include box-color;
+  background: $colorbtn;
+  }
+
+.box-color-2{@include box-color;
+  background: #A9581E;
+  }
+
+.box-color-3{@include box-color;
+  background: #010101;
+  }
+
+.box-color-4{@include box-color;
+  background: #222222;
+  }
+
+.box-color-5{@include box-color;
+  background: #454545;
+  }
+
+.box-color-6{@include box-color;
+  background: #555555;
+  }
+
+.box-color-7{@include box-color;
+  background: #D9D9D9;
+  }
+
+.box-color-8{@include box-color;
+  background: $textwhite;
+  }
+
+.box-color-9{@include box-color;
+  background: #9CFF83;
+  }
+
+.box-color-10{@include box-color;
+  background: #54A3FF;
+  }
+
+.box-color-11{@include box-color;
+  background: #FF5454;
+  }
+
+.box-color-12{@include box-color;
+  background: #FFD15B;
+  }
+
+.box-color-13{@include box-color;
+  background: #FAFFD1;
+  }
+
+.box-color-14{@include box-color;
+  background: #A1FFCE;
+  }
+
+.box-color-15{@include box-color;
+  background: linear-gradient(90deg, #A1FFCE 0%, #FAFFD1 100%);;
+  }
+
+
+.box-2{@extend .box;
+  height: 339px;}
+
+.box-3{@extend .box;
+height: 900px;}
+
+.box-4{@extend .box;
+  height: 630px;}
+
+  .box-5{@extend .box;
+    height: 490px;}
