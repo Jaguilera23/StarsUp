@@ -316,7 +316,10 @@ height: 230px}
 
 .anatomy h6{margin-bottom: 5%;}
 
-.c-anatomy,.c-spacing,.c-statuses,.c-coins{margin-bottom: 175px;}
+.c-anatomy,.c-spacing,.c-statuses,.c-coins,.c-icons-dash,.c-flags{margin-bottom: 175px;}
+
+
+
 
 .spacing{@extend .box;
 height: 388px;
@@ -366,3 +369,19 @@ margin-bottom: 39px;}
   line-height: 150%;
   color:$textwhite;
 }
+
+.icons-dash{@extend .spacing;
+  height: 396px;
+  padding-top: 5% ;
+}
+
+.icons-dash p{font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color:$textwhite}
+
+  .flags{@extend .icons-dash;
+    margin-right: 12%;
+  }

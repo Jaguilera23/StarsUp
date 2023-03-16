@@ -1275,7 +1275,7 @@ h6 {
   font-size: 10px;
 }
 
-.box, .spacing, .coins-symbol, .statuses, .anatomy, .b-description-box, .box-5, .box-4, .box-3, .box-2 {
+.box, .spacing, .icons-dash, .flags, .coins-symbol, .statuses, .anatomy, .b-description-box, .box-5, .box-4, .box-3, .box-2 {
   height: 192px;
   background: #181818;
   border: 1px solid bgblack;
@@ -1436,11 +1436,11 @@ h6 {
   margin-bottom: 5%;
 }
 
-.c-anatomy, .c-spacing, .c-statuses, .c-coins {
+.c-anatomy, .c-spacing, .c-statuses, .c-coins, .c-icons-dash, .c-flags {
   margin-bottom: 175px;
 }
 
-.spacing, .coins-symbol, .statuses {
+.spacing, .icons-dash, .flags, .coins-symbol, .statuses {
   height: 388px;
   padding-left: 3%;
   padding-top: 2%;
@@ -1448,7 +1448,7 @@ h6 {
   margin-right: 8%;
 }
 
-.spacing p, .coins-symbol p, .statuses p {
+.spacing p, .icons-dash p, .flags p, .coins-symbol p, .statuses p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -1496,6 +1496,24 @@ h6 {
   font-size: 14px;
   line-height: 150%;
   color: #ffffff;
+}
+
+.icons-dash, .flags {
+  height: 396px;
+  padding-top: 5%;
+}
+
+.icons-dash p, .flags p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.flags {
+  margin-right: 12%;
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
