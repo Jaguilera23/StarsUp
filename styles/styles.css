@@ -139,7 +139,11 @@ a:visited {
   text-align: left;
 }
 
-.thead {
+.table-volume th {
+  padding-bottom: 10px;
+}
+
+.thead th {
   font-weight: 500;
   font-size: 1.1rem;
   line-height: 1%;
@@ -278,6 +282,14 @@ ul {
   border-radius: 1rem;
 }
 
+.h-card {
+  width: 359px;
+  height: 392px;
+  background: #181818;
+  border-radius: 20px;
+  padding-top: 3%;
+}
+
 .history p {
   font-weight: lighter;
 }
@@ -289,6 +301,11 @@ ul {
 .container-table {
   margin-top: 10rem;
   margin-bottom: 15rem;
+}
+
+.container-table-brand {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .container-h1 {
@@ -387,7 +404,8 @@ hr {
   padding-right: 1.5rem;
   padding-left: 1.6rem;
   text-align: center;
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .card-table td:first-child {
@@ -1083,7 +1101,7 @@ h6 {
 }
 
 .typography-clash-example, .typography-clash h6 {
-  font-family: "Clash Display";
+  font-family: "Clash Display Variable";
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;
