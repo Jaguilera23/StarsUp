@@ -1034,6 +1034,13 @@ h6 {
   width: -moz-min-content;
   width: min-content;
 }
+.design p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
 
 .design h5 {
   font-family: "Inter", sans-serif;
