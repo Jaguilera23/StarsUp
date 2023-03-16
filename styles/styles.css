@@ -527,9 +527,9 @@ hr {
 }
 
 .contact-form-margin h2 {
-  font-family: "Clash Display";
+  font-family: "Clash Display Variable";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 48px;
   line-height: 110%;
 }
@@ -1275,7 +1275,7 @@ h6 {
   font-size: 10px;
 }
 
-.box, .box-5, .box-4, .box-3, .box-2 {
+.box, .spacing, .coins-symbol, .statuses, .anatomy, .b-description-box, .box-5, .box-4, .box-3, .box-2 {
   height: 192px;
   background: #181818;
   border: 1px solid bgblack;
@@ -1405,6 +1405,97 @@ h6 {
 
 .box-5 {
   height: 490px;
+}
+
+.b-description-box {
+  height: 266px;
+}
+
+.button-description {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  height: 230px;
+}
+
+.anatomy {
+  height: 392px;
+  width: 710px;
+  margin-right: 120px;
+  margin-bottom: 0;
+}
+
+.anatomy p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.anatomy h6 {
+  margin-bottom: 5%;
+}
+
+.c-anatomy, .c-spacing, .c-statuses, .c-coins {
+  margin-bottom: 175px;
+}
+
+.spacing, .coins-symbol, .statuses {
+  height: 388px;
+  padding-left: 3%;
+  padding-top: 2%;
+  margin-bottom: 0px;
+  margin-right: 8%;
+}
+
+.spacing p, .coins-symbol p, .statuses p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.statuses {
+  height: 300px;
+}
+
+.coins-symbol {
+  height: 271px;
+  margin-right: 15px;
+}
+
+.coins-symbol p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.c-size48 img {
+  width: 48px;
+  margin-bottom: 39px;
+}
+
+.c-size36 img {
+  width: 36px;
+  margin-bottom: 39px;
+}
+
+.c-size24 img {
+  width: 24px;
+}
+
+.c-size p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
