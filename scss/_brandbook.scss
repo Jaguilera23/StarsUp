@@ -3,10 +3,15 @@
 
 /*navbar brandbook */
 .navbar-brand-brandbook {
-    width: 245.17px;
-    height: 66px;
+    width: 200px;
+    height: 53.84px;
     margin-right: 23.55rem;
   }
+
+  .hr-brand{width: 1293px;
+    border: 1px solid #454545;
+    margin-top: 76px;
+    margin-bottom: 76px;}
   
   .creadores img {
     width: 1.9rem;
@@ -46,7 +51,12 @@
   
   .design {
     margin-top: 36px;
+
+        img{width:min-content;}
+
   }
+
+  
   
   .design h5 {
     font-family:$principal-font;
@@ -65,13 +75,18 @@
   }
   
   .title-tech {
-    margin-top: 15%;
+    margin-top: 8%;
     margin-left: 21.5rem;
   }
   
-  .img-tech {
-    width: 55%;
+  .box-tech{width: 280px;
+    height: 165px;
+    background: #181818;
+    border: 1px solid #010101;
+    border-radius: 20px;
   }
+
+
   
   .tech-mb {
     margin-bottom: 20%;
@@ -304,17 +319,19 @@ height: 230px}
   width: 710px;
   margin-right: 120px;
   margin-bottom: 0;
+
+      p{font-size: 12px;
+        font-weight: 400;
+        font-family: $principal-font;
+        line-height: 15px;
+        color: $textwhite;}
+
+        h5{margin-bottom: 7%;}
 }
 
-.anatomy p{font-size: 12px;
-  font-weight: 400;
-  font-family: $principal-font;
-  line-height: 15px;
-  color: $textwhite;
 
-}
 
-.anatomy h6{margin-bottom: 5%;}
+
 
 .c-anatomy,.c-spacing,.c-statuses,.c-coins,.c-icons-dash,.c-flags{margin-bottom: 175px;}
 
@@ -327,32 +344,36 @@ padding-left: 3%;
 padding-top: 2%;
 margin-bottom:0px ;
 margin-right: 8%;
+
+    p{font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: $textwhite;}
 }
 
-.spacing p {font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  color: $textwhite;
-}
+
 
 .statuses{@extend .spacing;
 height: 300px;
 }
 
-.coins-symbol{@extend .spacing;
-height:271px;
-margin-right: 15px;
+.coins-symbol{
+  @extend .spacing;
+  height:271px;
+  margin-right: 15px;
+
+    p{font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color:$textwhite;}
+    
 }
 
-.coins-symbol p{font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  color:$textwhite;
-}
+
 
 .c-size48 img{width:48px ;
 margin-bottom: 39px;}
@@ -370,17 +391,20 @@ margin-bottom: 39px;}
   color:$textwhite;
 }
 
-.icons-dash{@extend .spacing;
-  height: 396px;
-  padding-top: 5% ;
+.icons-dash{
+    @extend .spacing;
+    height: 396px;
+    padding-top: 5% ;
+
+      p{font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color:$textwhite}
 }
 
-.icons-dash p{font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  color:$textwhite}
+
 
   .flags{@extend .icons-dash;
     margin-right: 12%;

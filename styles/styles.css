@@ -978,9 +978,16 @@ h6 {
 
 /*navbar brandbook */
 .navbar-brand-brandbook {
-  width: 245.17px;
-  height: 66px;
+  width: 200px;
+  height: 53.84px;
   margin-right: 23.55rem;
+}
+
+.hr-brand {
+  width: 1293px;
+  border: 1px solid #454545;
+  margin-top: 76px;
+  margin-bottom: 76px;
 }
 
 .creadores img {
@@ -1021,6 +1028,11 @@ h6 {
 .design {
   margin-top: 36px;
 }
+.design img {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
 
 .design h5 {
   font-family: "Inter", sans-serif;
@@ -1039,12 +1051,16 @@ h6 {
 }
 
 .title-tech {
-  margin-top: 15%;
+  margin-top: 8%;
   margin-left: 21.5rem;
 }
 
-.img-tech {
-  width: 55%;
+.box-tech {
+  width: 280px;
+  height: 165px;
+  background: #181818;
+  border: 1px solid #010101;
+  border-radius: 20px;
 }
 
 .tech-mb {
@@ -1423,7 +1439,6 @@ h6 {
   margin-right: 120px;
   margin-bottom: 0;
 }
-
 .anatomy p {
   font-size: 12px;
   font-weight: 400;
@@ -1431,9 +1446,8 @@ h6 {
   line-height: 15px;
   color: #ffffff;
 }
-
-.anatomy h6 {
-  margin-bottom: 5%;
+.anatomy h5 {
+  margin-bottom: 7%;
 }
 
 .c-anatomy, .c-spacing, .c-statuses, .c-coins, .c-icons-dash, .c-flags {
@@ -1447,7 +1461,6 @@ h6 {
   margin-bottom: 0px;
   margin-right: 8%;
 }
-
 .spacing p, .icons-dash p, .flags p, .coins-symbol p, .statuses p {
   font-family: "Inter";
   font-style: normal;
@@ -1465,7 +1478,6 @@ h6 {
   height: 271px;
   margin-right: 15px;
 }
-
 .coins-symbol p {
   font-family: "Inter";
   font-style: normal;
@@ -1502,7 +1514,6 @@ h6 {
   height: 396px;
   padding-top: 5%;
 }
-
 .icons-dash p, .flags p {
   font-family: "Inter";
   font-style: normal;
