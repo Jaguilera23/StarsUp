@@ -1006,9 +1006,10 @@ h6 {
 .creadores p {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 150%;
+  color: #ffffff;
 }
 
 .creadores span {
@@ -1052,7 +1053,7 @@ h6 {
 
 .title-tech {
   margin-top: 8%;
-  margin-left: 21.5rem;
+  margin-left: 4%;
 }
 
 .box-tech {
