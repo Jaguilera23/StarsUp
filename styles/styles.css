@@ -1869,15 +1869,41 @@ h6 {
 
 .cards-table {
   margin-top: 10%;
-  margin-bottom: 15%;
 }
 
 .finance {
-  width: 722px;
+  width: 770px;
   height: 424px;
   background: #222222;
   border-radius: 16px;
-  margin-top: 15%;
+  margin-left: 41.5%;
+}
+
+.income-expenses {
+  margin-right: 150px;
+}
+
+.y-axis-values {
+  height: 300px;
+  width: 34px;
+  margin-left: 3%;
+}
+
+.curvas {
+  width: 682px;
+  height: 211px;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+
+.curvas img {
+  width: 680px;
+}
+
+.hr-curvas {
+  width: 682px;
+  border: 1px solid #898989;
+  margin-top: -1%;
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
