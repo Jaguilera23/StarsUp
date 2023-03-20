@@ -1806,6 +1806,11 @@ h6 {
 .amount input, .amount-send-money input {
   border: none;
   padding-left: 5%;
+  color: #ffffff;
+}
+
+.amount input:focus, .amount-send-money input:focus {
+  outline: none;
 }
 
 .amount input::-moz-placeholder, .amount-send-money input::-moz-placeholder {

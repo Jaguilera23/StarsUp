@@ -660,10 +660,12 @@ border-radius: 8px;
 
 .amount input{border: none;
   padding-left:5%;
+  color: $textwhite;
  
 
 }
 
+.amount input:focus{outline:none;}
 
 .amount input::placeholder{font-family: 'Inter';
   font-style: normal;
