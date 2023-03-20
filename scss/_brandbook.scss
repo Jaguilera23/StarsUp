@@ -684,3 +684,18 @@ width: 300px;}
 }
 
 .mb-cards{margin-bottom: 4%;}
+
+
+.h-card-3{@extend .h-card-2;
+  width: 475px;
+height: 400px;
+}
+
+.card-body-3{margin-top:25%}
+
+.table-volume-dash{@extend .table-volume;
+  width: 800px;
+height: 400px;
+}
+
+.cards-table{margin-top: 10%;}

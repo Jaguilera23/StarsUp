@@ -123,7 +123,7 @@ a:visited {
   font-size: 1.8rem;
 }
 
-.table-volume {
+.table-volume, .table-volume-dash {
   background-color: #222222;
   border-radius: 1.25rem;
   border-collapse: collapse;
@@ -135,11 +135,11 @@ a:visited {
   margin-top: 1rem;
 }
 
-.table-volume th:first-child {
+.table-volume th:first-child, .table-volume-dash th:first-child {
   text-align: left;
 }
 
-.table-volume th {
+.table-volume th, .table-volume-dash th {
   padding-bottom: 10px;
 }
 
@@ -282,7 +282,7 @@ ul {
   border-radius: 1rem;
 }
 
-.h-card, .h-card-2 {
+.h-card, .h-card-2, .h-card-3 {
   width: 359px;
   height: 392px;
   background: #181818;
@@ -1637,7 +1637,7 @@ h6 {
   margin-bottom: 20%;
 }
 
-.h-card-2 {
+.h-card-2, .h-card-3 {
   height: 990px;
   width: 387px;
 }
@@ -1857,6 +1857,24 @@ h6 {
   margin-bottom: 4%;
 }
 
+.h-card-3 {
+  width: 475px;
+  height: 400px;
+}
+
+.card-body-3 {
+  margin-top: 25%;
+}
+
+.table-volume-dash {
+  width: 800px;
+  height: 400px;
+}
+
+.cards-table {
+  margin-top: 10%;
+}
+
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .desktop-no {
     display: block;
@@ -2001,7 +2019,7 @@ h6 {
   .padding-text-table span {
     display: none;
   }
-  .table-volume {
+  .table-volume, .table-volume-dash {
     width: 95%;
     margin-left: 10px;
   }
