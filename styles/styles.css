@@ -1716,10 +1716,6 @@ h6 {
   border-radius: 16px;
 }
 
-.dropdown {
-  width: 324px;
-}
-
 .card-product-detail-position {
   border: none;
   width: 310px;
@@ -1873,6 +1869,15 @@ h6 {
 
 .cards-table {
   margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+.finance {
+  width: 722px;
+  height: 424px;
+  background: #222222;
+  border-radius: 16px;
+  margin-top: 15%;
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {

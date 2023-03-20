@@ -568,7 +568,7 @@ background: transparent;}
 }
 
 
-.dropdown{width:324px;}
+
 
 .card-product-detail-position{@extend .card-product-detail;
 border: none;
@@ -698,4 +698,11 @@ height: 400px;
 height: 400px;
 }
 
-.cards-table{margin-top: 10%;}
+.cards-table{margin-top: 10%;
+margin-bottom: 15%;}
+
+.finance{width: 722px;
+  height: 424px;
+  background: #222222;
+  border-radius: 16px;
+margin-top: 15%;}
