@@ -499,10 +499,13 @@ margin-bottom: 20%;
 
 .card-body-2{margin-top:100%}
 
-.card-buy-summary{height: 590px;
+.card-buy-summary{height: 560px;
   background: #222222;
   border: 1px solid #474747;
   border-radius: 16px;
+  width: 324px;
+  margin-right: 65px;
+ 
 }
 
 .dropdown-menu{width: 280px;
@@ -518,7 +521,7 @@ border: none;
   }
 }
 
-.btn.btn-buy{width: 280px;
+.btn.btn-buy{
 background: #222222;
 color: $textwhite;
 font-family: 'Inter';
@@ -530,7 +533,7 @@ margin-left: 12px;
 border: none;
 }
 
-.blind-space{color:#222222}
+
 
 .hr-card{
   width: 275px;
@@ -539,10 +542,13 @@ border: none;
   margin-top: 21px;
 }
 
-.buy-btc{margin-top: 325px;
+.buy-btc{
   width: 270px;
   height: 39px;
-margin-left: 24px;}
+}
+
+.buy-btc:hover{color: $textwhite;
+}
 
 .btn.more-option {font-family: 'Inter';
   font-style: normal;
@@ -551,3 +557,130 @@ margin-left: 24px;}
   line-height: 15px;
   color: #83868E;
 background: transparent;}
+
+
+
+.card-position{height: 500px;
+  width: 350px;
+  background: #222222;
+  border: 1px solid #474747;
+  border-radius: 16px;
+}
+
+
+.dropdown{width:324px;}
+
+.card-product-detail-position{@extend .card-product-detail;
+border: none;
+width: 310px;
+}
+
+.buy-btc-open{@extend .buy-btc;
+width:141px;
+margin-top:14px;
+}
+
+
+
+.buy-btc-open-sell{@extend .buy-btc-open;
+  background: #454545;
+
+}
+
+.buy-btc-open-sell:hover{ background: #454545;
+  color: $textwhite;}
+
+.amount{width: 280px;
+    height: 60px;
+    background: #454545;
+    border-radius: 8px;
+
+      p{font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 5px;
+        color: #83868E;
+}
+  
+  }
+
+.btn.btn-buy-open{@extend .btn-buy;
+background: transparent;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #83868E;
+}
+
+.amountx{width: 280px;
+  height: 32px;
+  background: #454545;
+border-radius: 8px;
+
+  p{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color:$textwhite;
+  }
+
+}
+
+.send-money{
+  width: 380px;
+  height: 391px;
+  background: #222222;
+  border: 1px solid #474747;
+  border-radius: 16px;
+
+
+
+    p{font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 25px;
+      color:$textwhite;
+      margin-top: 26px;
+      margin-left: 32px;
+      margin-bottom: 23px;
+    }
+}
+
+.p-contact p{font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FFFFFF;}
+
+.amount input{border: none;
+  padding-left:5%;
+ 
+
+}
+
+
+.amount input::placeholder{font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83868E;
+}
+
+.amount-send-money{@extend .amount;
+width: 300px;}
+
+.btn-send-money{width: 300px;
+  height: 56px;}
+
+.card-brand{margin-right: 0px;
+  margin-left: 100px;
+}
+
+.mb-cards{margin-bottom: 4%;}

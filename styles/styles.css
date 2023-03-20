@@ -671,7 +671,7 @@ textarea {
   margin-top: 10%;
 }
 
-.card-product-detail {
+.card-product-detail, .card-product-detail-position {
   width: 19rem;
   height: 6rem;
   background: #222222;
@@ -679,7 +679,7 @@ textarea {
   border-radius: 1rem;
 }
 
-.card-product-detail p {
+.card-product-detail p, .card-product-detail-position p {
   color: #ffffff;
 }
 
@@ -1647,10 +1647,12 @@ h6 {
 }
 
 .card-buy-summary {
-  height: 590px;
+  height: 560px;
   background: #222222;
   border: 1px solid #474747;
   border-radius: 16px;
+  width: 324px;
+  margin-right: 65px;
 }
 
 .dropdown-menu {
@@ -1668,8 +1670,7 @@ h6 {
   color: #83868E;
 }
 
-.btn.btn-buy, .btn-buy.border-orange:hover {
-  width: 280px;
+.btn.btn-buy, .btn.btn-buy-open, .btn-buy.border-orange:hover, .border-orange.btn-buy-open:hover {
   background: #222222;
   color: #ffffff;
   font-family: "Inter";
@@ -1681,10 +1682,6 @@ h6 {
   border: none;
 }
 
-.blind-space {
-  color: #222222;
-}
-
 .hr-card {
   width: 275px;
   height: 0px;
@@ -1692,11 +1689,13 @@ h6 {
   margin-top: 21px;
 }
 
-.buy-btc {
-  margin-top: 325px;
+.buy-btc, .buy-btc-open, .buy-btc-open-sell {
   width: 270px;
   height: 39px;
-  margin-left: 24px;
+}
+
+.buy-btc:hover, .buy-btc-open:hover, .buy-btc-open-sell:hover {
+  color: #ffffff;
 }
 
 .btn.more-option, .more-option.border-orange:hover {
@@ -1707,6 +1706,155 @@ h6 {
   line-height: 15px;
   color: #83868E;
   background: transparent;
+}
+
+.card-position {
+  height: 500px;
+  width: 350px;
+  background: #222222;
+  border: 1px solid #474747;
+  border-radius: 16px;
+}
+
+.dropdown {
+  width: 324px;
+}
+
+.card-product-detail-position {
+  border: none;
+  width: 310px;
+}
+
+.buy-btc-open, .buy-btc-open-sell {
+  width: 141px;
+  margin-top: 14px;
+}
+
+.buy-btc-open-sell {
+  background: #454545;
+}
+
+.buy-btc-open-sell:hover {
+  background: #454545;
+  color: #ffffff;
+}
+
+.amount, .amount-send-money {
+  width: 280px;
+  height: 60px;
+  background: #454545;
+  border-radius: 8px;
+}
+.amount p, .amount-send-money p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 5px;
+  color: #83868E;
+}
+
+.btn.btn-buy-open, .btn-buy-open.border-orange:hover {
+  background: transparent;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83868E;
+}
+
+.amountx {
+  width: 280px;
+  height: 32px;
+  background: #454545;
+  border-radius: 8px;
+}
+.amountx p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.send-money {
+  width: 380px;
+  height: 391px;
+  background: #222222;
+  border: 1px solid #474747;
+  border-radius: 16px;
+}
+.send-money p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-top: 26px;
+  margin-left: 32px;
+  margin-bottom: 23px;
+}
+
+.p-contact p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FFFFFF;
+}
+
+.amount input, .amount-send-money input {
+  border: none;
+  padding-left: 5%;
+}
+
+.amount input::-moz-placeholder, .amount-send-money input::-moz-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83868E;
+}
+
+.amount input:-ms-input-placeholder, .amount-send-money input:-ms-input-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83868E;
+}
+
+.amount input::placeholder, .amount-send-money input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83868E;
+}
+
+.amount-send-money {
+  width: 300px;
+}
+
+.btn-send-money {
+  width: 300px;
+  height: 56px;
+}
+
+.card-brand {
+  margin-right: 0px;
+  margin-left: 100px;
+}
+
+.mb-cards {
+  margin-bottom: 4%;
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
@@ -1846,7 +1994,7 @@ h6 {
   .h2-product-detail {
     font-size: 1.79rem;
   }
-  .card-product-detail {
+  .card-product-detail, .card-product-detail-position {
     margin-left: 12%;
   }
   /*table media query*/
