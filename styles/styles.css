@@ -1039,7 +1039,6 @@ h6 {
 }
 
 .creadores {
-  margin-left: 5%;
   margin-bottom: 3.25rem;
   margin-top: 9.3rem;
 }
@@ -1651,7 +1650,7 @@ h6 {
   background: #222222;
   border: 1px solid #474747;
   border-radius: 16px;
-  width: 324px;
+  width: 350px;
   margin-right: 70px;
 }
 
@@ -1993,6 +1992,84 @@ h6 {
 
 .curvas-extend {
   width: 1160px;
+}
+
+.tdc, .tdc-orange, .tdc-blue {
+  width: 346px;
+  height: 199px;
+  background: #222222;
+  border-radius: 16px;
+  position: absolute;
+  z-index: 2;
+}
+
+.card-num {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.balance-tdc {
+  margin-top: 20%;
+}
+
+.tdc-blue {
+  background: #247CFF;
+  position: absolute;
+  z-index: 1;
+  width: 324px;
+  height: 186px;
+  transform: translate(6px, -15px) rotate(5deg);
+}
+
+.tdc-orange {
+  background: #F58B28;
+  position: absolute;
+  z-index: 0;
+  transform: translate(15px, -25px) rotate(10deg);
+  width: 304.46px;
+  height: 175.11px;
+}
+
+.tdc-cards {
+  margin-top: 14%;
+  margin-left: 5%;
+}
+
+.open-new-position-zindex, .open-new-position-zindex2 {
+  position: absolute;
+  z-index: 0;
+}
+
+.send-money-zindex {
+  position: absolute;
+  z-index: 1;
+  transform: translate(180px, 245px);
+}
+
+.summary-zindex {
+  position: absolute;
+  z-index: 0;
+}
+
+.open-new-position-zindex2 {
+  transform: translate(185px, 180px);
+}
+
+.cards-row-2-brand {
+  margin-top: 25%;
+  margin-bottom: 25%;
+  margin-left: 5%;
+}
+
+.card-brand-h {
+  height: 392px;
+  width: 346px;
+  margin-left: 20%;
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
