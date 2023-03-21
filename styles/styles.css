@@ -540,6 +540,15 @@ hr {
   margin-left: 6%;
 }
 
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: transparent;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
 .contact-form-margin {
   margin-top: 18%;
 }
