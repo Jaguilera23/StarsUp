@@ -504,7 +504,7 @@ margin-bottom: 20%;
   border: 1px solid #474747;
   border-radius: 16px;
   width: 324px;
-  margin-right: 65px;
+  margin-right: 70px;
  
 }
 
@@ -561,10 +561,12 @@ background: transparent;}
 
 
 .card-position{height: 500px;
-  width: 350px;
+  width: 345px;
   background: #222222;
   border: 1px solid #474747;
   border-radius: 16px;
+
+  
 }
 
 
@@ -726,3 +728,74 @@ margin-bottom: 3%;}
 .hr-curvas{width: 682px;
   border: 1px solid #898989;
 margin-top:-1%}
+
+.time{width: 450px;
+}
+
+.adjust{width:250px}
+
+.y-axis-candel p{font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: $textwhite;
+  }
+
+.hr-level{width: 625px;
+    height: 0px;
+    border: 1px solid rgba(141, 141, 141, 0.25);
+    margin-bottom: 4.3%;}
+
+.hr-level-h{height: 300px;}
+
+.candels-img{z-index:5;
+position: absolute;
+margin-left:3%;
+margin-top: 1.5%;}
+
+.candels-graphic{z-index: 1;
+position: relative;}
+
+.bars-img{@extend .candels-img;
+margin-top: 17.6%;}
+
+.finance-candels{@extend .finance;
+height: 465px;}
+
+.finance-candels-extend{@extend .finance-candels;
+  width: 1315px;
+  height: 640px;
+margin-left: 0;}
+
+.candels-img-extend{@extend .candels-img;}
+
+.bars-img-extend{@extend .bars-img;
+margin-top: 29.5%;}
+
+.candels-graphic-extend{@extend .candels-graphic;
+  width: 1280px;
+  height: 388.4px;
+}
+
+.hr-level-extend {@extend .hr-level;
+  width:1160px;
+  margin-top: 3%;
+  margin-bottom: 2.6%;
+}
+
+.hr-level-h-extend{@extend .hr-level-h;
+  height:460px;
+
+}
+
+
+
+.y-axis-values-extend{@extend .y-axis-values;
+height: 440px;
+
+    p{margin-top: 25%;}
+}
+
+.curvas-extend{@extend .curvas;
+width: 1160px;}
