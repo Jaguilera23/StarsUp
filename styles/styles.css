@@ -540,13 +540,29 @@ hr {
   margin-left: 6%;
 }
 
-.carousel-cell {
-  width: 66%;
-  height: 200px;
+.carousel-cell, .carousel-cell-home {
+  width: 24%;
+  height: 150px;
   margin-right: 10px;
   background: transparent;
   border-radius: 5px;
   counter-increment: gallery-cell;
+  align-items: flex-end;
+  display: flex;
+}
+
+.carousel-cell-home {
+  width: 35%;
+}
+
+.carousel .flickity-prev-next-button {
+  /* oculta los botones de control */
+  display: none;
+}
+
+.carousel .flickity-page-dots {
+  /* oculta los dots */
+  display: none;
 }
 
 .contact-form-margin {
@@ -1008,6 +1024,7 @@ h6 {
   width: 200px;
   height: 53.84px;
   margin-right: 23.55rem;
+  margin-left: -4%;
 }
 
 .hr-brand {
@@ -1086,7 +1103,6 @@ h6 {
 
 .title-tech {
   margin-top: 8%;
-  margin-left: 4%;
 }
 
 .box-tech {

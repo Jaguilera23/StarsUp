@@ -453,13 +453,28 @@ hr {
 
 
 .carousel-cell {
-    width: 66%;
-    height: 200px;
+    width: 24%;
+    height: 150px;
     margin-right: 10px;
     background: transparent;
     border-radius: 5px;
     counter-increment: gallery-cell;
+    align-items: flex-end;
+    display: flex;
   }
 
+  .carousel-cell-home{@extend .carousel-cell;
+    width: 35%;
+
+}
   
+.carousel .flickity-prev-next-button {
+    /* oculta los botones de control */
+    display: none;
+}
+   
+  .carousel .flickity-page-dots {
+    /* oculta los dots */
+    display: none;
+  }
   
