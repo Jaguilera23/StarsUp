@@ -543,7 +543,7 @@ hr {
 .carousel-cell, .carousel-cell-home {
   width: 24%;
   height: 150px;
-  margin-right: 10px;
+  margin-right: 0px;
   background: transparent;
   border-radius: 5px;
   counter-increment: gallery-cell;
@@ -2063,6 +2063,7 @@ h6 {
 .tdc-cards {
   margin-top: 14%;
   margin-left: 5%;
+  margin-right: 6%;
 }
 
 .open-new-position-zindex, .open-new-position-zindex2 {
@@ -2073,7 +2074,7 @@ h6 {
 .send-money-zindex {
   position: absolute;
   z-index: 1;
-  transform: translate(180px, 245px);
+  transform: translate(180px, 300px);
 }
 
 .summary-zindex {
@@ -2094,7 +2095,7 @@ h6 {
 .card-brand-h {
   height: 392px;
   width: 346px;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
