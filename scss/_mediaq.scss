@@ -223,6 +223,18 @@
     .history{margin-left: 8%;
     margin-right: 5%;
 }
+
+
+.carousel-cell {
+    width: 60%;
+
+  }
+
+  .carousel-cell-home{@extend .carousel-cell;
+    width: 70%;
+    margin-right:40px;
+
+}
     
     }
     
