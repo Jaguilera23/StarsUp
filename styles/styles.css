@@ -1656,7 +1656,7 @@ h6 {
   opacity: 0.7;
 }
 
-.transactions {
+.transactions, .transactions-dash {
   width: 722px;
   margin-bottom: 20%;
 }
@@ -1733,7 +1733,7 @@ h6 {
 }
 
 .card-position {
-  height: 500px;
+  height: 463px;
   width: 345px;
   background: #222222;
   border: 1px solid #474747;
@@ -1800,7 +1800,7 @@ h6 {
 }
 
 .send-money {
-  width: 380px;
+  width: 350px;
   height: 391px;
   background: #222222;
   border: 1px solid #474747;
@@ -1892,7 +1892,7 @@ h6 {
 }
 
 .table-volume-dash {
-  width: 800px;
+  width: 760px;
   height: 400px;
 }
 
@@ -2324,4 +2324,1218 @@ h6 {
     width: 70%;
     margin-right: 40px;
   }
+}
+/*navbar brandbook */
+.navbar-brand-brandbook {
+  width: 200px;
+  height: 53.84px;
+  margin-right: 23.55rem;
+  margin-left: -4%;
+}
+
+.hr-brand {
+  width: 1293px;
+  border: 1px solid #454545;
+  margin-top: 76px;
+  margin-bottom: 76px;
+}
+
+.creadores img {
+  width: 1.9rem;
+  margin-bottom: 18.28px;
+}
+
+.creadores, h5 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.creadores p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.creadores span {
+  font-weight: bold;
+}
+
+.redes {
+  margin-top: 7%;
+}
+
+.creadores {
+  margin-bottom: 3.25rem;
+  margin-top: 9.3rem;
+}
+
+.design {
+  margin-top: 36px;
+}
+.design img {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+.design p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.design h5 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.design-p {
+  width: 65rem;
+  height: 165px;
+  background: #181818;
+  border: 1px solid bgblack;
+  border-radius: 20px;
+}
+
+.title-tech {
+  margin-top: 8%;
+}
+
+.box-tech {
+  width: 280px;
+  height: 165px;
+  background: #181818;
+  border: 1px solid #010101;
+  border-radius: 20px;
+}
+
+.tech-mb {
+  margin-bottom: 20%;
+}
+
+.typography-box {
+  background: #181818;
+  border: 1px solid bgblack;
+  border-radius: 20px;
+  height: 150px;
+}
+
+.typography-clash-example, .typography-clash h6 {
+  font-family: "Clash Display Variable";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.w-card-brand {
+  width: 405px;
+}
+
+.typography-clash p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.typography-inter-example, .typography-inter h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.typography-inter p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.headings {
+  height: 1680px;
+  background: #181818;
+  border: 1px solid bgblack;
+  border-radius: 20px;
+  margin-bottom: 126px;
+}
+
+.heading-size-1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 96px;
+}
+
+.heading-size-2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 80px;
+}
+
+.heading-size-3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 72px;
+}
+
+.heading-size-4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 64px;
+}
+
+.heading-size-5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 56px;
+}
+
+.heading-size-6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 48px;
+}
+
+.heading-size-7 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.heading-size-8 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.heading-size-9 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.heading-size-10 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.heading-size-11 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.heading-size-12 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.heading-size-12 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.paragraph {
+  height: 500px;
+  background: #181818;
+  border: 1px solid bgblack;
+  border-radius: 20px;
+  margin-bottom: 175px;
+}
+
+.paragraph-size-1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 78px;
+  font-size: 18px;
+}
+
+.paragraph-size-2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 78px;
+  font-size: 16px;
+}
+
+.paragraph-size-3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 78px;
+  font-size: 14px;
+}
+
+.paragraph-size-4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 78px;
+  font-size: 12px;
+}
+
+.paragraph-size-5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 78px;
+  font-size: 10px;
+}
+
+.box, .box-2, .box-3, .box-4, .box-5, .b-description-box, .anatomy, .spacing, .statuses, .coins-symbol, .icons-dash, .flags {
+  height: 192px;
+  background: #181818;
+  border: 1px solid bgblack;
+  border-radius: 20px;
+  margin-bottom: 175px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+.box-color-1 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #FF6D03;
+}
+
+.box-color-2 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #A9581E;
+}
+
+.box-color-3 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #010101;
+}
+
+.box-color-4 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #222222;
+}
+
+.box-color-5 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #454545;
+}
+
+.box-color-6 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #555555;
+}
+
+.box-color-7 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #D9D9D9;
+}
+
+.box-color-8 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.box-color-9 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #9CFF83;
+}
+
+.box-color-10 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #54A3FF;
+}
+
+.box-color-11 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #FF5454;
+}
+
+.box-color-12 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #FFD15B;
+}
+
+.box-color-13 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #FAFFD1;
+}
+
+.box-color-14 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #A1FFCE;
+}
+
+.box-color-15 {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #A1FFCE 0%, #FAFFD1 100%);
+}
+
+.box-2 {
+  height: 339px;
+}
+
+.box-3 {
+  height: 900px;
+}
+
+.box-4 {
+  height: 630px;
+}
+
+.box-5 {
+  height: 490px;
+}
+
+.b-description-box {
+  height: 266px;
+}
+
+.button-description {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  height: 230px;
+}
+
+.anatomy {
+  height: 392px;
+  width: 710px;
+  margin-right: 120px;
+  margin-bottom: 0;
+}
+.anatomy p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 15px;
+  color: #ffffff;
+}
+.anatomy h5 {
+  margin-bottom: 7%;
+}
+
+.c-anatomy, .c-spacing, .c-statuses, .c-coins, .c-icons-dash, .c-flags {
+  margin-bottom: 175px;
+}
+
+.spacing, .statuses, .coins-symbol, .icons-dash, .flags {
+  height: 388px;
+  padding-left: 3%;
+  padding-top: 2%;
+  margin-bottom: 0px;
+  margin-right: 8%;
+}
+.spacing p, .statuses p, .coins-symbol p, .icons-dash p, .flags p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.statuses {
+  height: 300px;
+}
+
+.coins-symbol {
+  height: 271px;
+  margin-right: 15px;
+}
+.coins-symbol p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.c-size48 img {
+  width: 48px;
+  margin-bottom: 39px;
+}
+
+.c-size36 img {
+  width: 36px;
+  margin-bottom: 39px;
+}
+
+.c-size24 img {
+  width: 24px;
+}
+
+.c-size p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.icons-dash, .flags {
+  height: 396px;
+  padding-top: 5%;
+}
+.icons-dash p, .flags p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.flags {
+  margin-right: 12%;
+}
+
+.income {
+  width: 346px;
+  height: 135px;
+  top: 2675px;
+  background: #222222;
+  border-radius: 16px;
+}
+
+.income-price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.income-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7A7A7A;
+}
+
+.income-span1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FF5454;
+}
+
+.income-span2, .income-span3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7A7A7A;
+}
+
+.income-span3 {
+  color: #14C67A;
+}
+
+.box-transaction {
+  background: #2C2C2C;
+  border: 1px solid #474747;
+  border-radius: 10px;
+  height: 56px;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+.box-transaction p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.th-transaction {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.transactions, .transactions-dash {
+  width: 722px;
+  margin-bottom: 20%;
+}
+
+.h-card-2, .h-card-3 {
+  height: 990px;
+  width: 387px;
+}
+
+.card-body-2 {
+  margin-top: 100%;
+}
+
+.card-buy-summary {
+  height: 560px;
+  background: #222222;
+  border: 1px solid #474747;
+  border-radius: 16px;
+  width: 350px;
+  margin-right: 70px;
+}
+
+.dropdown-menu {
+  width: 280px;
+  background-color: transparent;
+  height: 100px;
+  border: none;
+}
+.dropdown-menu p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #83868E;
+}
+
+.btn.btn-buy, .btn-buy.border-orange:hover, .btn.btn-buy-open, .border-orange.btn-buy-open:hover {
+  background: #222222;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 12px;
+  border: none;
+}
+
+.hr-card {
+  width: 275px;
+  height: 0px;
+  margin-bottom: 14px;
+  margin-top: 21px;
+}
+
+.buy-btc, .buy-btc-open, .buy-btc-open-sell {
+  width: 270px;
+  height: 39px;
+}
+
+.buy-btc:hover, .buy-btc-open:hover, .buy-btc-open-sell:hover {
+  color: #ffffff;
+}
+
+.btn.more-option, .more-option.border-orange:hover {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83868E;
+  background: transparent;
+}
+
+.card-position {
+  height: 463px;
+  width: 345px;
+  background: #222222;
+  border: 1px solid #474747;
+  border-radius: 16px;
+}
+
+.card-product-detail-position {
+  border: none;
+  width: 310px;
+}
+
+.buy-btc-open, .buy-btc-open-sell {
+  width: 141px;
+  margin-top: 14px;
+}
+
+.buy-btc-open-sell {
+  background: #454545;
+}
+
+.buy-btc-open-sell:hover {
+  background: #454545;
+  color: #ffffff;
+}
+
+.amount, .amount-send-money {
+  width: 280px;
+  height: 60px;
+  background: #454545;
+  border-radius: 8px;
+}
+.amount p, .amount-send-money p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 5px;
+  color: #83868E;
+}
+
+.btn.btn-buy-open, .btn-buy-open.border-orange:hover {
+  background: transparent;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83868E;
+}
+
+.amountx {
+  width: 280px;
+  height: 32px;
+  background: #454545;
+  border-radius: 8px;
+}
+.amountx p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.send-money {
+  width: 350px;
+  height: 391px;
+  background: #222222;
+  border: 1px solid #474747;
+  border-radius: 16px;
+}
+.send-money p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-top: 26px;
+  margin-left: 32px;
+  margin-bottom: 23px;
+}
+
+.p-contact p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FFFFFF;
+}
+
+.amount input, .amount-send-money input {
+  border: none;
+  padding-left: 5%;
+  color: #ffffff;
+}
+
+.amount input:focus, .amount-send-money input:focus {
+  outline: none;
+}
+
+.amount input::-moz-placeholder, .amount-send-money input::-moz-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83868E;
+}
+
+.amount input:-ms-input-placeholder, .amount-send-money input:-ms-input-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83868E;
+}
+
+.amount input::placeholder, .amount-send-money input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83868E;
+}
+
+.amount-send-money {
+  width: 300px;
+}
+
+.btn-send-money {
+  width: 300px;
+  height: 56px;
+}
+
+.card-brand {
+  margin-right: 0px;
+  margin-left: 100px;
+}
+
+.mb-cards {
+  margin-bottom: 4%;
+}
+
+.h-card-3 {
+  width: 475px;
+  height: 400px;
+}
+
+.card-body-3 {
+  margin-top: 25%;
+}
+
+.table-volume-dash {
+  width: 760px;
+  height: 400px;
+}
+
+.cards-table {
+  margin-top: 10%;
+}
+
+.finance, .finance-candels, .finance-candels-extend {
+  width: 770px;
+  height: 424px;
+  background: #222222;
+  border-radius: 16px;
+  margin-left: 41.5%;
+}
+
+.income-expenses {
+  margin-right: 150px;
+}
+
+.y-axis-values, .y-axis-values-extend {
+  height: 300px;
+  width: 34px;
+  margin-left: 3%;
+}
+
+.curvas, .curvas-extend {
+  width: 682px;
+  height: 211px;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+
+.curvas img, .curvas-extend img {
+  width: 680px;
+}
+
+.hr-curvas {
+  width: 682px;
+  border: 1px solid #898989;
+  margin-top: -1%;
+}
+
+.time {
+  width: 450px;
+}
+
+.adjust {
+  width: 250px;
+}
+
+.y-axis-candel p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.hr-level, .hr-level-extend {
+  width: 625px;
+  height: 0px;
+  border: 1px solid rgba(141, 141, 141, 0.25);
+  margin-bottom: 4.3%;
+}
+
+.hr-level-h, .hr-level-h-extend {
+  height: 300px;
+}
+
+.candels-img, .bars-img, .candels-img-extend, .bars-img-extend {
+  z-index: 5;
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 1.5%;
+}
+
+.candels-graphic, .candels-graphic-extend {
+  z-index: 1;
+  position: relative;
+}
+
+.bars-img, .bars-img-extend {
+  margin-top: 17.6%;
+}
+
+.finance-candels, .finance-candels-extend {
+  height: 465px;
+}
+
+.finance-candels-extend {
+  width: 1315px;
+  height: 640px;
+  margin-left: 0;
+}
+
+.bars-img-extend {
+  margin-top: 29.5%;
+}
+
+.candels-graphic-extend {
+  width: 1280px;
+  height: 388.4px;
+}
+
+.hr-level-extend {
+  width: 1160px;
+  margin-top: 3%;
+  margin-bottom: 2.6%;
+}
+
+.hr-level-h-extend {
+  height: 460px;
+}
+
+.y-axis-values-extend {
+  height: 440px;
+}
+.y-axis-values-extend p {
+  margin-top: 25%;
+}
+
+.curvas-extend {
+  width: 1160px;
+}
+
+.tdc, .tdc-blue, .tdc-orange {
+  width: 346px;
+  height: 199px;
+  background: #222222;
+  border-radius: 16px;
+  position: absolute;
+  z-index: 2;
+}
+
+.card-num {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.balance-tdc {
+  margin-top: 20%;
+}
+
+.tdc-blue {
+  background: #247CFF;
+  position: absolute;
+  z-index: 1;
+  width: 324px;
+  height: 186px;
+  transform: translate(6px, -15px) rotate(5deg);
+}
+
+.tdc-orange {
+  background: #F58B28;
+  position: absolute;
+  z-index: 0;
+  transform: translate(15px, -25px) rotate(10deg);
+  width: 304.46px;
+  height: 175.11px;
+}
+
+.tdc-cards {
+  margin-top: 14%;
+  margin-left: 5%;
+  margin-right: 6%;
+}
+
+.open-new-position-zindex, .open-new-position-zindex2 {
+  position: absolute;
+  z-index: 0;
+}
+
+.send-money-zindex {
+  position: absolute;
+  z-index: 1;
+  transform: translate(180px, 300px);
+}
+
+.summary-zindex {
+  position: absolute;
+  z-index: 0;
+}
+
+.open-new-position-zindex2 {
+  transform: translate(185px, 180px);
+}
+
+.cards-row-2-brand {
+  margin-top: 25%;
+  margin-bottom: 25%;
+  margin-left: 5%;
+}
+
+.card-brand-h {
+  height: 392px;
+  width: 346px;
+  margin-left: 15%;
+}
+
+#dashboard, #body-dashboard {
+  width: 1440px;
+  height: 1024px;
+  font-family: "Inter", sans-serif;
+  background: #010101;
+  color: #ffffff;
+}
+
+.navbar.navbar-dash {
+  width: 256px;
+  height: 1024px;
+  background: #010101;
+}
+
+.active-link {
+  width: 198px;
+  height: 51px;
+  background: #FF6D03;
+  border-radius: 7px;
+}
+
+.logo-dash {
+  width: 160.91px;
+  height: 43.32px;
+}
+
+.search input {
+  width: 346px;
+  height: 40px;
+  background: #222222;
+  border-radius: 10px;
+  margin-left: 15px;
+  padding-left: 15px;
+  border: none;
+  color: #ffffff;
+}
+
+.search {
+  height: 50px;
+  margin-left: 16.5%;
+}
+
+.logo-links {
+  height: 50px;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search input::-moz-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7A7A7A;
+  background-image: url(../assets/logos/search-normal.png);
+  background-repeat: no-repeat;
+  background-position: 300px center;
+}
+
+.search input:-ms-input-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7A7A7A;
+  background-image: url(../assets/logos/search-normal.png);
+  background-repeat: no-repeat;
+  background-position: 300px center;
+}
+
+.search input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7A7A7A;
+  background-image: url(../assets/logos/search-normal.png);
+  background-repeat: no-repeat;
+  background-position: 300px center;
+}
+
+.search label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.dash-main {
+  width: 80%;
+  margin-right: 1%;
+}
+
+.income-dash {
+  margin-top: 66%;
+  width: 346px;
+  margin-left: 8%;
+}
+
+.tdc-income {
+  margin-top: -0.4%;
+}
+
+.last-month {
+  width: 130px;
+  height: 34px;
+  background: #2C2C2C;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.transactions-dash {
+  margin-bottom: 0;
+  width: 760px;
+}
+
+.position-dash {
+  width: 770px;
+}
+
+.trading-dash {
+  margin-top: 3.3%;
 }/*# sourceMappingURL=styles.css.map */

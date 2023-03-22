@@ -1,0 +1,98 @@
+@import "fonts";
+@import "colors";
+@import "brandbook";
+
+#dashboard, #body-dashboard{width: 1440px;
+    height: 1024px;
+
+    font-family:$principal-font;
+
+    background:$bgblack;
+
+    color:$textwhite;
+    
+
+}
+
+.navbar.navbar-dash{width: 256px;
+    height: 1024px;
+    background: #010101;
+
+}
+
+.active-link{width: 198px;
+    height: 51px;
+    background: #FF6D03;
+    border-radius: 7px;}
+
+.logo-dash{width: 160.91px;
+    height: 43.32px;}
+
+.search input{width: 346px;
+    height: 40px;
+    background: #222222;
+    border-radius: 10px;
+    margin-left: 15px;
+    padding-left: 15px;
+    border: none;
+    color: $textwhite;
+}
+
+.search{height: 50px;
+margin-left: 16.5%;}
+
+.logo-links{height: 50px;}
+
+.search input:focus{outline: none;}
+
+.search input::placeholder{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #7A7A7A;
+    background-image: url(../assets/logos/search-normal.png);
+    background-repeat: no-repeat;
+    background-position: 300px center;
+}
+
+.search label{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: $textwhite;
+}
+
+.dash-main{width: 80%;
+margin-right: 1%;}
+
+.income-dash{margin-top: 66%;
+    width: 346px;
+    margin-left: 8%;
+}
+
+.tdc-income{margin-top: -0.4%;}
+
+.last-month{width: 130px;
+    height: 34px;
+    background: #2C2C2C;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+}
+
+
+
+.transactions-dash{@extend .transactions;
+margin-bottom: 0;
+width: 760px;
+}
+
+.position-dash{width: 770px;}
+
+.trading-dash{margin-top: 3.3%;}
