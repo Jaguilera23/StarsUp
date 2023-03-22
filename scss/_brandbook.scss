@@ -424,7 +424,8 @@ margin-bottom: 39px;}
   top: 2675px;
   
   background: #222222;
-  border-radius: 16px;}
+  border-radius: 16px;
+  border: 0.774749px solid #474747;}
 
 
 
@@ -711,6 +712,7 @@ height: 400px;
   background: #222222;
   border-radius: 16px;
   margin-left: 41.5%;
+  border: 0.774749px solid #474747;
 }
 
 .income-expenses{margin-right: 150px;}
@@ -722,7 +724,8 @@ margin-left: 3%;}
 .curvas{width: 682px;
   height: 211px;
 margin-left: 2%;
-margin-bottom: 3%;}
+margin-bottom: 3%;
+}
 
 .curvas img{width: 680px;}
 
@@ -753,16 +756,17 @@ margin-top:-1%}
 .candels-img{z-index:5;
 position: absolute;
 margin-left:3%;
-margin-top: 1.5%;}
+margin-top: 2%;}
 
 .candels-graphic{z-index: 1;
 position: relative;}
 
 .bars-img{@extend .candels-img;
-margin-top: 17.6%;}
+margin-top: 16.8%;}
 
 .finance-candels{@extend .finance;
-height: 465px;}
+height: 465px;
+border: 0.774749px solid #474747;}
 
 .finance-candels-extend{@extend .finance-candels;
   width: 1315px;
@@ -799,7 +803,8 @@ height: 440px;
 }
 
 .curvas-extend{@extend .curvas;
-width: 1160px;}
+width: 1160px;
+;}
 
 .tdc{width: 346px;
   height: 199px;

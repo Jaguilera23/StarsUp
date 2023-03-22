@@ -1587,6 +1587,7 @@ h6 {
   top: 2675px;
   background: #222222;
   border-radius: 16px;
+  border: 0.774749px solid #474747;
 }
 
 .income-price {
@@ -1616,7 +1617,7 @@ h6 {
   color: #FF5454;
 }
 
-.income-span2, .income-span3 {
+.income-span2, .income-span3, .yellow, .blue {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -1625,7 +1626,7 @@ h6 {
   color: #7A7A7A;
 }
 
-.income-span3 {
+.income-span3, .yellow, .blue {
   color: #14C67A;
 }
 
@@ -1906,6 +1907,7 @@ h6 {
   background: #222222;
   border-radius: 16px;
   margin-left: 41.5%;
+  border: 0.774749px solid #474747;
 }
 
 .income-expenses {
@@ -1967,7 +1969,7 @@ h6 {
   z-index: 5;
   position: absolute;
   margin-left: 3%;
-  margin-top: 1.5%;
+  margin-top: 2%;
 }
 
 .candels-graphic, .candels-graphic-extend {
@@ -1976,11 +1978,12 @@ h6 {
 }
 
 .bars-img, .bars-img-extend {
-  margin-top: 17.6%;
+  margin-top: 16.8%;
 }
 
 .finance-candels, .finance-candels-extend {
   height: 465px;
+  border: 0.774749px solid #474747;
 }
 
 .finance-candels-extend {
@@ -2893,6 +2896,7 @@ h6 {
   top: 2675px;
   background: #222222;
   border-radius: 16px;
+  border: 0.774749px solid #474747;
 }
 
 .income-price {
@@ -2922,7 +2926,7 @@ h6 {
   color: #FF5454;
 }
 
-.income-span2, .income-span3 {
+.income-span2, .income-span3, .yellow, .blue {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -2931,7 +2935,7 @@ h6 {
   color: #7A7A7A;
 }
 
-.income-span3 {
+.income-span3, .yellow, .blue {
   color: #14C67A;
 }
 
@@ -3212,6 +3216,7 @@ h6 {
   background: #222222;
   border-radius: 16px;
   margin-left: 41.5%;
+  border: 0.774749px solid #474747;
 }
 
 .income-expenses {
@@ -3273,7 +3278,7 @@ h6 {
   z-index: 5;
   position: absolute;
   margin-left: 3%;
-  margin-top: 1.5%;
+  margin-top: 2%;
 }
 
 .candels-graphic, .candels-graphic-extend {
@@ -3282,11 +3287,12 @@ h6 {
 }
 
 .bars-img, .bars-img-extend {
-  margin-top: 17.6%;
+  margin-top: 16.8%;
 }
 
 .finance-candels, .finance-candels-extend {
   height: 465px;
+  border: 0.774749px solid #474747;
 }
 
 .finance-candels-extend {
@@ -3538,4 +3544,12 @@ h6 {
 
 .trading-dash {
   margin-top: 3.3%;
+}
+
+.yellow, .blue {
+  color: #FFD15B;
+}
+
+.blue {
+  color: #54A3FF;
 }/*# sourceMappingURL=styles.css.map */

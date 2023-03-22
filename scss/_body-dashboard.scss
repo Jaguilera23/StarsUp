@@ -93,6 +93,16 @@ margin-bottom: 0;
 width: 760px;
 }
 
-.position-dash{width: 770px;}
+.position-dash{width: 770px;
+}
 
-.trading-dash{margin-top: 3.3%;}
+.trading-dash{margin-top: 3.3%;
+}
+
+.yellow{@extend .income-span3;
+color:#FFD15B;
+}
+
+.blue{@extend .yellow;
+color:#54A3FF;
+}
