@@ -773,7 +773,17 @@ border: 0.774749px solid #474747;}
   height: 640px;
 margin-left: 0;}
 
-.candels-img-extend{@extend .candels-img;}
+.candels-img-extend{@extend .candels-img;
+
+    img{width: 1110px;
+    margin-top: -6%;
+    margin-left: 2%;
+  
+  }
+
+}
+
+
 
 .bars-img-extend{@extend .bars-img;
 margin-top: 29.5%;}

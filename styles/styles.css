@@ -1992,6 +1992,12 @@ h6 {
   margin-left: 0;
 }
 
+.candels-img-extend img {
+  width: 1110px;
+  margin-top: -6%;
+  margin-left: 2%;
+}
+
 .bars-img-extend {
   margin-top: 29.5%;
 }
@@ -3299,6 +3305,12 @@ h6 {
   width: 1315px;
   height: 640px;
   margin-left: 0;
+}
+
+.candels-img-extend img {
+  width: 1110px;
+  margin-top: -6%;
+  margin-left: 2%;
 }
 
 .bars-img-extend {
