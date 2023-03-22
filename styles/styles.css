@@ -113,13 +113,13 @@ a:visited {
 }
 
 .display-2 {
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   font-weight: 500;
   margin-top: 10%;
 }
 
 .clash-display h3 {
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   font-size: 1.8rem;
 }
 
@@ -198,7 +198,7 @@ th, td {
 
 .subtitle h2 {
   margin-left: 3%;
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   font-weight: 500;
   font-size: 3rem;
   line-height: 110%;
@@ -267,7 +267,7 @@ ul {
 }
 
 .section-cards h2 {
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   font-weight: 500;
   font-size: 48px;
 }
@@ -329,7 +329,7 @@ ul {
 
 .coin {
   font-weight: 500;
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   font-size: 18px;
 }
 
@@ -360,7 +360,7 @@ ul {
 }
 
 .card-title {
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   font-weight: 500;
   font-size: 24px;
 }
@@ -453,7 +453,7 @@ hr {
   margin-bottom: 5%;
   text-align: center;
   font-weight: 500;
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
 }
 
 .exchanges img {
@@ -485,7 +485,7 @@ hr {
   margin-bottom: 5%;
   text-align: center;
   font-weight: 500;
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   margin-left: 6%;
   width: 100%;
 }
@@ -494,7 +494,7 @@ hr {
   font-weight: 500;
   font-size: 5rem;
   line-height: 100%;
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   color: #ffffff;
 }
 
@@ -521,7 +521,7 @@ hr {
 
 .new-account h2 {
   width: 60%;
-  font-family: "Clash Display Variable";
+  font-family: "Clash Display Variable", "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 3rem;
@@ -570,7 +570,7 @@ hr {
 }
 
 .contact-form-margin h2 {
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -636,7 +636,7 @@ textarea {
 }
 
 .h4-pl1-1 {
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   font-style: normal;
   font-weight: lighter;
   font-size: 1.5rem;
@@ -644,7 +644,7 @@ textarea {
 
 .h2-pl2-1 {
   width: 100%;
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 3rem;
@@ -652,7 +652,7 @@ textarea {
 
 .h2-pl2-1-end {
   width: 100%;
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 3rem;
@@ -686,7 +686,7 @@ textarea {
 }
 
 .h2-product-detail {
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 3rem;
@@ -794,7 +794,7 @@ br {
 .h2-tutorials {
   font-size: 3rem;
   font-weight: 500;
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
 }
 
 .mb-tutorials {
@@ -1125,7 +1125,7 @@ h6 {
 }
 
 .typography-clash-example, .typography-clash h6 {
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;
@@ -2440,7 +2440,7 @@ h6 {
 }
 
 .typography-clash-example, .typography-clash h6 {
-  font-family: "Clash Display Variable", "Inter";
+  font-family: "Clash Display Variable", "Inter", sans-serif, "Inter", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;

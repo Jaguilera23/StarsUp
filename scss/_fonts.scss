@@ -1,4 +1,4 @@
 $principal-font: 'Inter', 'Clash Display',sans-serif;
-$clashvd: 'Clash Display Variable';
-$clashd: '../assets/fonts/ClashDisplay-Variable.ttf';
+$clashvd: 'Clash Display Variable','Inter', sans-serif;
+$clashd: '../assets/fonts/ClashDisplay-Variable.ttf', 'Inter', sans-serif;
 
