@@ -483,7 +483,7 @@ hr {
 .gradiente{width: 920px;
     height: 920px;
     background: radial-gradient(circle at center, #A1FFCE 0%, #FAFFD1 100%);
-    opacity: 0.07;
+    opacity: 0.08;
     filter: blur(250px);
     background-size: cover;
     border-radius: 50%;
@@ -497,3 +497,57 @@ hr {
     width: 920px;
     height: 920px;
 top: 200%;}
+
+.gradiente3{@extend.gradiente;
+top:10%;
+left:1%
+}
+
+.gradiente4{@extend.gradiente;
+    top:130%;
+    left:35%
+    }
+
+.gradiente5{@extend.gradiente;
+    top:260%;
+    left:1%
+    }
+
+.gradiente6{@extend.gradiente;
+    top:390%;
+    left:35%
+    }
+
+.gradiente7{@extend .gradiente;
+    width: 920px;
+    height: 920px;
+    left: 35%;
+    top:30%;
+}
+
+.gradiente8{@extend.gradiente;
+    top:10%;
+    left:1%
+    }
+    
+.gradiente9{@extend.gradiente;
+    top:200%;
+    left:35%
+}
+
+.gradiente10{@extend.gradiente;
+    top:100%;
+    left:1%
+}
+
+.gradiente11{@extend .gradiente;
+    width: 920px;
+    height: 920px;
+top: 25%;
+left: 1%;}
+
+.gradiente12{@extend .gradiente;
+    width: 920px;
+    height: 920px;
+top: 8%;
+left: 8%;}

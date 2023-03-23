@@ -19,8 +19,11 @@
 .navbar.navbar-dash{width: 256px;
     height: 1024px;
     background: #010101;
+    z-index: 1;
 
 }
+.f-candels-dash{z-index: 1;
+position: relative;}
 
 .active-link{width: 198px;
     height: 51px;
@@ -107,4 +110,7 @@ color:#FFD15B;
 
 .blue{@extend .yellow;
 color:#54A3FF;
+}
+
+.nav-sidebar{margin-top: 19.5%;
 }
