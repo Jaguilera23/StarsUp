@@ -41,6 +41,7 @@
     border-radius: 1.25rem;
     border-collapse: collapse;
     border: 1px solid $bordergray;
+    z-index: 1;
   }
   
   .currency-table {
@@ -479,3 +480,20 @@ hr {
   }
   
 
+.gradiente{width: 920px;
+    height: 920px;
+    background: radial-gradient(circle at center, #A1FFCE 0%, #FAFFD1 100%);
+    opacity: 0.05;
+    filter: blur(250px);
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: 10%;
+    top:75%;
+    z-index:0
+    }
+
+.gradiente2{@extend .gradiente;
+    width: 920px;
+    height: 920px;
+top: 180%;}
