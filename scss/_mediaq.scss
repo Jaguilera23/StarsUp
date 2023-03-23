@@ -2,7 +2,7 @@
 
 
 
-@media  screen and (min-width: 300px) and (max-width:768px){
+@media  screen and (min-width: 300px) and (max-width:1400px){
     
     .desktop-no{display: block;
     }
@@ -229,9 +229,9 @@
 .carousel-cell {
     width: 60%;
 
-  }
+}
 
-  .carousel-cell-home{@extend .carousel-cell;
+.carousel-cell-home{@extend .carousel-cell;
     width: 70%;
     margin-right:40px;
 
@@ -239,5 +239,9 @@
     
     }
 
+    @media  screen and (min-width: 1440px) {
 
+        body{width: 1440px;}
+        
+      }
     
