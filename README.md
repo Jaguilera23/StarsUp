@@ -64,4 +64,4 @@ La página web diseñada es completamente responsive, lo que significa que se ad
 
 ## Autor
 
-Este proyecto ha sido creado por Jose Aguilera, como parte del curso Desarrollo Web impartido por [CoderHouse](https://www.coderhouse.es/?utm_term=coderhouse&utm_campaign=0&utm_source=google_search_brand&utm_medium=cpc&gclid=Cj0KCQjw8qmhBhClARIsANAtbofTiZZCHzIytoPyUPvCFmzL2ODsF1gAwTUmOu1itlChMJlrZy3MPzIaAhnTEALw_wcB). Si tienes preguntas o sugerencias sobre el proyecto, puedes contactarme a través de admaguilera23@gmail.com .
+Este proyecto ha sido creado por Jose Aguilera, como parte del curso Desarrollo Web impartido por [CoderHouse](https://www.coderhouse.es/?utm_term=coderhouse&utm_campaign=0&utm_source=google_search_brand&utm_medium=cpc&gclid=Cj0KCQjw8qmhBhClARIsANAtbofTiZZCHzIytoPyUPvCFmzL2ODsF1gAwTUmOu1itlChMJlrZy3MPzIaAhnTEALw_wcB). Si tienes preguntas o sugerencias sobre el proyecto, puedes contactarme a través de admaguilera23@gmail.com o en mi perfil de  [linkedin](https://www.linkedin.com/in/joseaguilerarioboo/) .
