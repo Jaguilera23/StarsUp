@@ -1155,11 +1155,6 @@ h6 {
 .design {
   margin-top: 36px;
 }
-.design img {
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-}
 .design p {
   font-family: "Inter", "Clash Display", sans-serif;
   font-style: normal;
@@ -1189,8 +1184,6 @@ h6 {
 }
 
 .box-tech {
-  width: 280px;
-  height: 165px;
   background: #181818;
   border: 1px solid #010101;
   border-radius: 20px;
@@ -1971,10 +1964,6 @@ h6 {
   height: 400px;
 }
 
-.card-body-3 {
-  margin-top: 25%;
-}
-
 .table-volume-dash {
   width: 760px;
   height: 400px;
@@ -2474,11 +2463,6 @@ h6 {
 .design {
   margin-top: 36px;
 }
-.design img {
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-}
 .design p {
   font-family: "Inter", "Clash Display", sans-serif;
   font-style: normal;
@@ -2508,8 +2492,6 @@ h6 {
 }
 
 .box-tech {
-  width: 280px;
-  height: 165px;
   background: #181818;
   border: 1px solid #010101;
   border-radius: 20px;
@@ -3288,10 +3270,6 @@ h6 {
 .h-card-3 {
   width: 475px;
   height: 400px;
-}
-
-.card-body-3 {
-  margin-top: 25%;
 }
 
 .table-volume-dash {
