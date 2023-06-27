@@ -45,9 +45,9 @@ If you're not sure how to do it, follow these steps:
   * GitHub CLI: gh repo clone Jaguilera23/StarsUp
   * Download the repository in ZIP format using the "Code" button on the main repository page.
 
-4. Create a new branch (**git checkout -b nueva-funcionalidad**) to make your changes.
-5. Make your changes in the created branch and commit them (**git commit -m "Agrega nueva funcionalidad"**).
-6. Push your changes to the original repository by pushing the created branch (**git push origin nueva-funcionalidad**).
+4. Create a new branch (**git checkout -b new-functionality**) to make your changes.
+5. Make your changes in the created branch and commit them (**git commit -m "Add new functionality"**).
+6. Push your changes to the original repository by pushing the created branch (**git push origin new-functionality**).
 7. Create a pull request on the original repository page for your changes to be reviewed and considered for incorporation into the project.
 
 Remember to follow good development practices and document your changes well to facilitate the review and acceptance process. Thank you for your contribution!
